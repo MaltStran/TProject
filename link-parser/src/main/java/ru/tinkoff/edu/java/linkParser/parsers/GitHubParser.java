@@ -7,16 +7,16 @@ public class GitHubParser extends AbstractParser{
 
     @Override
     public Result parse(String url) {
-        url = parseUrl(url);
-        if(url == null){
+        String parseUrl = parseUrl(url);
+        if(parseUrl == null){
             return null;
         }
-        String[] dom = url.split("/");
+        String[] dom = parseUrl.split("/");
         if(dom.length == 4 || dom.length == 3){
             if(dom[0].equals("github.com")){
                 return new GitHubRecord(dom[1], dom[2]);
             }
         }
-        return checkNext(url);
+        return checkNext(parseUrl);
     }
 }
