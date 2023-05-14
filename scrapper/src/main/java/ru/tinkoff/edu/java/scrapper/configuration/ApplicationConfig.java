@@ -8,4 +8,8 @@ import ru.tinkoff.edu.java.scrapper.schedulers.Scheduler;
 
 @Validated
 @ConfigurationProperties(prefix = "app", ignoreUnknownFields = false)
-public record ApplicationConfig(@NotNull String test, Scheduler scheduler) {}
+public record ApplicationConfig(@NotNull String test, Scheduler scheduler, AccessType dataBaseAccessType) {
+    public enum AccessType {
+        JDBC, JPA
+    }
+}
