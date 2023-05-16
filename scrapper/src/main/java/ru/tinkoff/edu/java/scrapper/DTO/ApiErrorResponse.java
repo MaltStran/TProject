@@ -1,5 +1,12 @@
-package ru.tinkoff.edu.java.scrapper.DTO;
+package ru.tinkoff.edu.java.scrapper.dto;
 
-public record ApiErrorResponse(String description, String code,
-                               String exceptionName, String exceptionMessage,
-                               String[] stacktrace){}
+import jakarta.validation.constraints.NotNull;
+
+
+
+public record ApiErrorResponse(@NotNull String description,
+                               @NotNull String code,
+                               @NotNull String exceptionName,
+                               @NotNull String exceptionMessage,
+                               @NotNull String[] stacktrace) {
+}

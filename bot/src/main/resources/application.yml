@@ -1,0 +1,28 @@
+app:
+  bot:
+    name: "tinkoff-bot"
+    token:
+  scrapper:
+    url: "http://localhost:8080"
+  rabbit-queue:
+    exchange-name: updates
+    queue-name: updates.queue
+    routing-key: upd
+
+springdoc:
+  swagger-ui:
+    path: "swagger-ui"
+
+management:
+  server:
+    port: 8080
+
+server:
+  port: 8083
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: pass

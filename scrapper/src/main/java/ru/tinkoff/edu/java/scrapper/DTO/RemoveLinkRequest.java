@@ -1,3 +1,6 @@
-package ru.tinkoff.edu.java.scrapper.DTO;
+package ru.tinkoff.edu.java.scrapper.dto;
 
-public record RemoveLinkRequest(String link) {}
+import java.net.URI;
+
+public record RemoveLinkRequest(URI link) {
+}

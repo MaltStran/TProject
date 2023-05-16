@@ -1,0 +1,3325 @@
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656558)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_0_1.xml	(date 1684093656558)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/3.0.1/spring-boot-starter-webflux-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/3.0.1/spring-boot-starter-webflux-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/3.0.1/spring-boot-starter-webflux-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656516)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_1.xml	(date 1684093656516)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-web:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/3.0.1/spring-boot-starter-web-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/3.0.1/spring-boot-starter-web-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/3.0.1/spring-boot-starter-web-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656469)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_0_1.xml	(date 1684093656469)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-validation:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/3.0.1/spring-boot-starter-validation-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/3.0.1/spring-boot-starter-validation-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/3.0.1/spring-boot-starter-validation-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656427)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_1.xml	(date 1684093656427)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/3.0.1/spring-boot-starter-tomcat-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/3.0.1/spring-boot-starter-tomcat-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/3.0.1/spring-boot-starter-tomcat-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_indexer_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_context_indexer_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_context_indexer_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656736)
++++ b/.idea/libraries/Maven__org_springframework_spring_context_indexer_6_0_3.xml	(date 1684093656736)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-context-indexer:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/6.0.3/spring-context-indexer-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/6.0.3/spring-context-indexer-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/6.0.3/spring-context-indexer-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_context_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_context_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656690)
++++ b/.idea/libraries/Maven__org_springframework_spring_context_6_0_3.xml	(date 1684093656690)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-context:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.3/spring-context-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.3/spring-context-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.3/spring-context-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_beans_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_beans_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_beans_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656645)
++++ b/.idea/libraries/Maven__org_springframework_spring_beans_6_0_3.xml	(date 1684093656645)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-beans:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_aop_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_aop_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_aop_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656604)
++++ b/.idea/libraries/Maven__org_springframework_spring_aop_6_0_3.xml	(date 1684093656604)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-aop:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_web_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_web_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_web_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656886)
++++ b/.idea/libraries/Maven__org_springframework_spring_web_6_0_3.xml	(date 1684093656886)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-web:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.0.3/spring-web-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.0.3/spring-web-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_jcl_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656847)
++++ b/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_3.xml	(date 1684093656847)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-jcl:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_expression_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_expression_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_expression_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656810)
++++ b/.idea/libraries/Maven__org_springframework_spring_expression_6_0_3.xml	(date 1684093656810)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-expression:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_core_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_core_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_core_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656773)
++++ b/.idea/libraries/Maven__org_springframework_spring_core_6_0_3.xml	(date 1684093656773)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-core:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/6.0.3/spring-core-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/6.0.3/spring-core-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/6.0.3/spring-core-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml b/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml
+new file mode 100644
+--- /dev/null	(date 1684093657044)
++++ b/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml	(date 1684093657044)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.webjars:webjars-locator-core:0.52">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-locator-core/0.52/webjars-locator-core-0.52-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_jetbrains_annotations_23_1_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_jetbrains_annotations_23_1_0.xml b/.idea/libraries/Maven__org_jetbrains_annotations_23_1_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093655275)
++++ b/.idea/libraries/Maven__org_jetbrains_annotations_23_1_0.xml	(date 1684093655275)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.jetbrains:annotations:23.1.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/23.1.0/annotations-23.1.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/23.1.0/annotations-23.1.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/23.1.0/annotations-23.1.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_webjars_swagger_ui_4_15_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_webjars_swagger_ui_4_15_5.xml b/.idea/libraries/Maven__org_webjars_swagger_ui_4_15_5.xml
+new file mode 100644
+--- /dev/null	(date 1684093657008)
++++ b/.idea/libraries/Maven__org_webjars_swagger_ui_4_15_5.xml	(date 1684093657008)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.webjars:swagger-ui:4.15.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/swagger-ui/4.15.5/swagger-ui-4.15.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/swagger-ui/4.15.5/swagger-ui-4.15.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/swagger-ui/4.15.5/swagger-ui-4.15.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_webmvc_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656960)
++++ b/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_3.xml	(date 1684093656960)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-webmvc:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_webflux_6_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_webflux_6_0_3.xml b/.idea/libraries/Maven__org_springframework_spring_webflux_6_0_3.xml
+new file mode 100644
+--- /dev/null	(date 1684093656923)
++++ b/.idea/libraries/Maven__org_springframework_spring_webflux_6_0_3.xml	(date 1684093656923)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-webflux:6.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/6.0.3/spring-webflux-6.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/6.0.3/spring-webflux-6.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/6.0.3/spring-webflux-6.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml b/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093655239)
++++ b/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml	(date 1684093655239)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.jboss.logging:jboss-logging:3.5.0.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml b/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093655204)
++++ b/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml	(date 1684093655204)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.hibernate.validator:hibernate-validator:8.0.0.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/8.0.0.Final/hibernate-validator-8.0.0.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/8.0.0.Final/hibernate-validator-8.0.0.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/8.0.0.Final/hibernate-validator-8.0.0.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml b/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml
+new file mode 100644
+--- /dev/null	(date 1684093657083)
++++ b/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml	(date 1684093657083)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.yaml:snakeyaml:1.33">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_4.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_4.xml
+new file mode 100644
+--- /dev/null	(date 1684093654735)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_4.xml	(date 1684093654735)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.4/tomcat-embed-websocket-10.1.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.4/tomcat-embed-websocket-10.1.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.4/tomcat-embed-websocket-10.1.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_4.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_4.xml
+new file mode 100644
+--- /dev/null	(date 1684093654695)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_4.xml	(date 1684093654695)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:10.1.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/10.1.4/tomcat-embed-el-10.1.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/10.1.4/tomcat-embed-el-10.1.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/10.1.4/tomcat-embed-el-10.1.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_4.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_4.xml
+new file mode 100644
+--- /dev/null	(date 1684093654659)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_4.xml	(date 1684093654659)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:10.1.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/10.1.4/tomcat-embed-core-10.1.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/10.1.4/tomcat-embed-core-10.1.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/10.1.4/tomcat-embed-core-10.1.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml b/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093653944)
++++ b/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml	(date 1684093653944)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.19.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml b/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093653869)
++++ b/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml	(date 1684093653869)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.commons:commons-lang3:3.12.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml b/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093653905)
++++ b/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml	(date 1684093653905)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.logging.log4j:log4j-api:2.19.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/RemoveLinkRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/RemoveLinkRequest.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/RemoveLinkRequest.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/RemoveLinkRequest.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++public record RemoveLinkRequest(String link) {}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/AddLinkRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/AddLinkRequest.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/AddLinkRequest.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/AddLinkRequest.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++public record AddLinkRequest(String url) {}
+Index: .idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml b/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093653651)
++++ b/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml	(date 1684093653651)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml b/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093653615)
++++ b/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml	(date 1684093653615)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: jakarta.validation:jakarta.validation-api:3.0.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ApiErrorResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ApiErrorResponse.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ApiErrorResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ApiErrorResponse.java	(date 1680034569000)
+@@ -0,0 +1,5 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++public record ApiErrorResponse(String description, String code,
++                               String exceptionName, String exceptionMessage,
++                               String[] stacktrace){}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/LinkResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/LinkResponse.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/LinkResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/LinkResponse.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++public record LinkResponse(long id, String url) {}
+Index: .idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_7.xml b/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_7.xml
+new file mode 100644
+--- /dev/null	(date 1684093653496)
++++ b/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_7.xml	(date 1684093653496)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.swagger.core.v3:swagger-models-jakarta:2.2.7">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-models-jakarta/2.2.7/swagger-models-jakarta-2.2.7.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-models-jakarta/2.2.7/swagger-models-jakarta-2.2.7-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-models-jakarta/2.2.7/swagger-models-jakarta-2.2.7-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_7.xml b/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_7.xml
+new file mode 100644
+--- /dev/null	(date 1684093653460)
++++ b/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_7.xml	(date 1684093653460)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.swagger.core.v3:swagger-core-jakarta:2.2.7">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-core-jakarta/2.2.7/swagger-core-jakarta-2.2.7.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-core-jakarta/2.2.7/swagger-core-jakarta-2.2.7-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-core-jakarta/2.2.7/swagger-core-jakarta-2.2.7-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml b/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093653577)
++++ b/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml	(date 1684093653577)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml b/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml
+new file mode 100644
+--- /dev/null	(date 1684093653538)
++++ b/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml	(date 1684093653538)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: jakarta.activation:jakarta.activation-api:2.1.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_7.xml b/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_7.xml
+new file mode 100644
+--- /dev/null	(date 1684093653423)
++++ b/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_7.xml	(date 1684093653423)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.swagger.core.v3:swagger-annotations-jakarta:2.2.7">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations-jakarta/2.2.7/swagger-annotations-jakarta-2.2.7.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations-jakarta/2.2.7/swagger-annotations-jakarta-2.2.7-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations-jakarta/2.2.7/swagger-annotations-jakarta-2.2.7-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_1.xml b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093653312)
++++ b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_1.xml	(date 1684093653312)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor.netty:reactor-netty-core:1.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.1.1/reactor-netty-core-1.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.1.1/reactor-netty-core-1.1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.1.1/reactor-netty-core-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653274)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_86_Final.xml	(date 1684093653274)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.86.Final/netty-transport-native-unix-common-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.86.Final/netty-transport-native-unix-common-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.86.Final/netty-transport-native-unix-common-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_reactor_core_3_5_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_reactor_core_3_5_1.xml b/.idea/libraries/Maven__io_projectreactor_reactor_core_3_5_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093653386)
++++ b/.idea/libraries/Maven__io_projectreactor_reactor_core_3_5_1.xml	(date 1684093653386)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor:reactor-core:3.5.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.1/reactor-core-3.5.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.1/reactor-core-3.5.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.1/reactor-core-3.5.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_1.xml b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093653349)
++++ b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_1.xml	(date 1684093653349)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor.netty:reactor-netty-http:1.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.1.1/reactor-netty-http-1.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.1.1/reactor-netty-http-1.1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.1.1/reactor-netty-http-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653139)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_4_1_86_Final.xml	(date 1684093653139)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653228)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_86_Final.xml	(date 1684093653228)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.86.Final/netty-transport-native-epoll-4.1.86.Final-linux-x86_64.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.86.Final/netty-transport-native-epoll-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.86.Final/netty-transport-native-epoll-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653189)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_86_Final.xml	(date 1684093653189)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport-classes-epoll:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.86.Final/netty-transport-classes-epoll-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.86.Final/netty-transport-classes-epoll-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.86.Final/netty-transport-classes-epoll-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653023)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_86_Final.xml	(date 1684093653023)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver-dns:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.86.Final/netty-resolver-dns-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.86.Final/netty-resolver-dns-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.86.Final/netty-resolver-dns-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652986)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_4_1_86_Final.xml	(date 1684093652986)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.86.Final/netty-resolver-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.86.Final/netty-resolver-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.86.Final/netty-resolver-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653101)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_86_Final.xml	(date 1684093653101)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.86.Final/netty-resolver-dns-native-macos-4.1.86.Final-osx-x86_64.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.86.Final/netty-resolver-dns-native-macos-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.86.Final/netty-resolver-dns-native-macos-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093653063)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml	(date 1684093653063)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.86.Final/netty-resolver-dns-classes-macos-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.86.Final/netty-resolver-dns-classes-macos-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-classes-macos/4.1.86.Final/netty-resolver-dns-classes-macos-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_common_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_common_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_common_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652871)
++++ b/.idea/libraries/Maven__io_netty_netty_common_4_1_86_Final.xml	(date 1684093652871)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-common:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652946)
++++ b/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_86_Final.xml	(date 1684093652946)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-handler-proxy:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.86.Final/netty-handler-proxy-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.86.Final/netty-handler-proxy-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.86.Final/netty-handler-proxy-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_handler_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_handler_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_handler_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652909)
++++ b/.idea/libraries/Maven__io_netty_netty_handler_4_1_86_Final.xml	(date 1684093652909)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-handler:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.86.Final/netty-handler-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.86.Final/netty-handler-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.86.Final/netty-handler-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_http2_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652756)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_86_Final.xml	(date 1684093652756)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-http2:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.86.Final/netty-codec-http2-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.86.Final/netty-codec-http2-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.86.Final/netty-codec-http2-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_dns_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652715)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_86_Final.xml	(date 1684093652715)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-dns:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.86.Final/netty-codec-dns-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.86.Final/netty-codec-dns-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.86.Final/netty-codec-dns-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_socks_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652831)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_86_Final.xml	(date 1684093652831)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-socks:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_http_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652792)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_86_Final.xml	(date 1684093652792)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-http:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.86.Final/netty-codec-http-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.86.Final/netty-codec-http-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.86.Final/netty-codec-http-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml b/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093652596)
++++ b/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml	(date 1684093652596)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.micrometer:micrometer-observation:1.10.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-observation/1.10.2/micrometer-observation-1.10.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-observation/1.10.2/micrometer-observation-1.10.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-observation/1.10.2/micrometer-observation-1.10.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_2.xml b/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093652558)
++++ b/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_2.xml	(date 1684093652558)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.micrometer:micrometer-commons:1.10.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-commons/1.10.2/micrometer-commons-1.10.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-commons/1.10.2/micrometer-commons-1.10.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-commons/1.10.2/micrometer-commons-1.10.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652677)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_4_1_86_Final.xml	(date 1684093652677)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.86.Final/netty-codec-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.86.Final/netty-codec-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.86.Final/netty-codec-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_buffer_4_1_86_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_buffer_4_1_86_Final.xml b/.idea/libraries/Maven__io_netty_netty_buffer_4_1_86_Final.xml
+new file mode 100644
+--- /dev/null	(date 1684093652637)
++++ b/.idea/libraries/Maven__io_netty_netty_buffer_4_1_86_Final.xml	(date 1684093652637)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-buffer:4.1.86.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.86.Final/netty-buffer-4.1.86.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.86.Final/netty-buffer-4.1.86.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.86.Final/netty-buffer-4.1.86.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml b/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml
+new file mode 100644
+--- /dev/null	(date 1684093652516)
++++ b/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml	(date 1684093652516)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.github.classgraph:classgraph:4.8.149">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093652126)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml	(date 1684093652126)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.1/jackson-module-parameter-names-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.1/jackson-module-parameter-names-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.1/jackson-module-parameter-names-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093652089)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml	(date 1684093652089)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093651976)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml	(date 1684093651976)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093651929)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml	(date 1684093651929)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093652053)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml	(date 1684093652053)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093652013)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_14_1.xml	(date 1684093652013)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.14.1/jackson-dataformat-yaml-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.14.1/jackson-dataformat-yaml-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.14.1/jackson-dataformat-yaml-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml b/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml
+new file mode 100644
+--- /dev/null	(date 1684093651810)
++++ b/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml	(date 1684093651810)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: ch.qos.logback:logback-core:1.4.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml b/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml
+new file mode 100644
+--- /dev/null	(date 1684093651774)
++++ b/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml	(date 1684093651774)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: ch.qos.logback:logback-classic:1.4.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093651891)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml	(date 1684093651891)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml b/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093651851)
++++ b/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml	(date 1684093651851)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml:classmate:1.5.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/GitHubParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/GitHubParser.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/GitHubParser.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/GitHubParser.java	(date 1680034569000)
+@@ -0,0 +1,22 @@
++package ru.tinkoff.edu.java.linkParser.parsers;
++
++import ru.tinkoff.edu.java.linkParser.records.GitHubRecord;
++import ru.tinkoff.edu.java.linkParser.records.Result;
++
++public class GitHubParser extends AbstractParser{
++
++    @Override
++    public Result parse(String url) {
++        url = parseUrl(url);
++        if(url == null){
++            return null;
++        }
++        String[] dom = url.split("/");
++        if(dom.length == 4 || dom.length == 3){
++            if(dom[0].equals("github.com")){
++                return new GitHubRecord(dom[1], dom[2]);
++            }
++        }
++        return checkNext(url);
++    }
++}
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/StackOverflowParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/StackOverflowParser.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/StackOverflowParser.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/StackOverflowParser.java	(date 1680034569000)
+@@ -0,0 +1,26 @@
++package ru.tinkoff.edu.java.linkParser.parsers;
++
++import ru.tinkoff.edu.java.linkParser.records.Result;
++import ru.tinkoff.edu.java.linkParser.records.StackOverFlowRecord;
++
++public class StackOverflowParser extends AbstractParser{
++
++    @Override
++    public Result parse(String url) {
++        url = parseUrl(url);
++        if(url == null){
++            return null;
++        }
++        String[] dom = url.split("/");
++        if(dom.length == 4){
++            if(dom[0].equals("stackoverflow.com") && dom[1].equals("questions")){
++                try {
++                    return new StackOverFlowRecord(Long.parseLong(dom[2]));
++                } catch (NumberFormatException e) {
++                    return checkNext(url);
++                }
++            }
++        }
++        return checkNext(url);
++    }
++}
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/AbstractParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/AbstractParser.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/AbstractParser.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/parsers/AbstractParser.java	(date 1680034569000)
+@@ -0,0 +1,41 @@
++package ru.tinkoff.edu.java.linkParser.parsers;
++
++import ru.tinkoff.edu.java.linkParser.records.Result;
++
++import java.net.MalformedURLException;
++import java.net.URL;
++
++public abstract class AbstractParser {
++    private AbstractParser nextParser;
++
++
++    public static AbstractParser link(AbstractParser first, AbstractParser... chain){
++        AbstractParser head = first;
++        for (AbstractParser nextInChain: chain) {
++            head.nextParser = nextInChain;
++            head = nextInChain;
++        }
++        return first;
++    }
++
++
++    public abstract Result parse(String url);
++
++
++    protected Result checkNext(String url){
++        if(nextParser == null){
++            return null;
++        }
++        return nextParser.parse(url);
++    }
++
++
++    public String parseUrl(String stringUrl){
++        try {
++            URL url = new URL(stringUrl);
++            return url.getHost() + url.getPath();
++        } catch (MalformedURLException e) {
++            return stringUrl;
++        }
++    }
++}
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/ParserURL.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/ParserURL.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/ParserURL.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/ParserURL.java	(date 1680034569000)
+@@ -0,0 +1,14 @@
++package ru.tinkoff.edu.java.linkParser;
++
++import ru.tinkoff.edu.java.linkParser.parsers.AbstractParser;
++import ru.tinkoff.edu.java.linkParser.parsers.GitHubParser;
++import ru.tinkoff.edu.java.linkParser.parsers.StackOverflowParser;
++import ru.tinkoff.edu.java.linkParser.records.Result;
++
++public class ParserURL {
++    public Result parse(String url){
++        AbstractParser parserStack = new StackOverflowParser();
++        AbstractParser parserGit = new GitHubParser();
++        return AbstractParser.link(parserGit, parserStack).parse(url);
++    }
++}
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/GitHubRecord.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/GitHubRecord.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/GitHubRecord.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/GitHubRecord.java	(date 1680034569000)
+@@ -0,0 +1,5 @@
++package ru.tinkoff.edu.java.linkParser.records;
++
++public record GitHubRecord(String userName, String repName) implements Result{
++}
++
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/Result.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/Result.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/Result.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/Result.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.linkParser.records;
++
++public sealed interface Result permits GitHubRecord, StackOverFlowRecord {}
+Index: link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/StackOverFlowRecord.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/StackOverFlowRecord.java b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/StackOverFlowRecord.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/src/main/java/ru/tinkoff/edu/java/linkParser/records/StackOverFlowRecord.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.linkParser.records;
++
++public record StackOverFlowRecord(Long id) implements Result{}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/SchedulerConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/SchedulerConfig.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/SchedulerConfig.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/SchedulerConfig.java	(date 1680034569000)
+@@ -0,0 +1,12 @@
++package ru.tinkoff.edu.java.scrapper.configuration;
++
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++
++@Configuration
++public class SchedulerConfig {
++    @Bean
++    public long schedulerTimer(ApplicationConfig config) {
++        return config.scheduler().interval().toMillis();
++    }
++}
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1684093301206)
++++ b/.idea/jarRepositories.xml	(date 1684093301206)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java	(date 1680034569000)
+@@ -0,0 +1,20 @@
++package ru.tinkoff.edu.java.scrapper.configuration;
++
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++import ru.tinkoff.edu.java.scrapper.clients.GitHubClient;
++import ru.tinkoff.edu.java.scrapper.clients.StackOverflowClient;
++
++@Configuration
++public class ClientConfiguration {
++
++    @Bean
++    public GitHubClient gitHubClientService() {
++        return new GitHubClient();
++    }
++
++    @Bean
++    public StackOverflowClient stackOverflowClientService() {
++        return new StackOverflowClient();
++    }
++}
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowQuestion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowQuestion.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowQuestion.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowQuestion.java	(date 1680034569000)
+@@ -0,0 +1,10 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++import com.fasterxml.jackson.annotation.JsonProperty;
++
++import java.time.OffsetDateTime;
++
++public record StackOverflowQuestion(@JsonProperty("title") String title,
++                                    @JsonProperty("answer_count") Integer answerCount,
++                                    @JsonProperty("last_edit_date") OffsetDateTime lastActivityDate,
++                                    @JsonProperty("last_activity_date") OffsetDateTime lastEditDate) {}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/GitHubResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/GitHubResponse.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/GitHubResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/GitHubResponse.java	(date 1680034569000)
+@@ -0,0 +1,10 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++import com.fasterxml.jackson.annotation.JsonProperty;
++
++import java.time.OffsetDateTime;
++
++public record GitHubResponse(@JsonProperty("full_name") String fullName,
++        @JsonProperty("pushed_at") OffsetDateTime pushedAt,
++        @JsonProperty("forks_count") Long forksCount,
++        @JsonProperty("private") String isPrivate){}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ListLinkResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ListLinkResponse.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ListLinkResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/ListLinkResponse.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++import ru.tinkoff.edu.java.scrapper.Model.Link;
++
++import java.util.List;
++
++public record ListLinkResponse(List<Link> links, int size) {}
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1684093301159)
++++ b/.idea/encodings.xml	(date 1684093301159)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/bot/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/bot/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/link-parser/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/link-parser/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/scrapper/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/scrapper/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowResponse.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/DTO/StackOverflowResponse.java	(date 1680034569000)
+@@ -0,0 +1,5 @@
++package ru.tinkoff.edu.java.scrapper.DTO;
++
++import java.util.List;
++
++public record StackOverflowResponse(List<StackOverflowQuestion> questionList) {}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatExistException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatExistException.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatExistException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatExistException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.scrapper.exceptions;
++
++public class ChatExistException extends RuntimeException{
++    public ChatExistException(String message) {
++        super(message);
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatNotFoundException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatNotFoundException.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatNotFoundException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/ChatNotFoundException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.scrapper.exceptions;
++
++public class ChatNotFoundException extends RuntimeException{
++    public ChatNotFoundException(String message) {
++        super(message);
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkExistException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkExistException.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkExistException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkExistException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.scrapper.exceptions;
++
++public class LinkExistException extends RuntimeException{
++    public LinkExistException(String message) {
++        super(message);
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkNotFoundException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkNotFoundException.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkNotFoundException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/LinkNotFoundException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.scrapper.exceptions;
++
++public class LinkNotFoundException extends RuntimeException{
++    public LinkNotFoundException(String message) {
++        super(message);
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/Scheduler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/Scheduler.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/Scheduler.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/Scheduler.java	(date 1680034569000)
+@@ -0,0 +1,5 @@
++package ru.tinkoff.edu.java.scrapper.schedulers;
++
++import java.time.Duration;
++
++public record Scheduler(Duration interval){}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/Model/Link.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/Model/Link.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/Model/Link.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/Model/Link.java	(date 1680034569000)
+@@ -0,0 +1,17 @@
++package ru.tinkoff.edu.java.scrapper.Model;
++
++
++import lombok.Data;
++import lombok.NoArgsConstructor;
++
++@Data
++@NoArgsConstructor
++public class Link {
++    private long id;
++    private String url;
++
++    public Link(long id, String url) {
++        this.id = id;
++        this.url = url;
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/ChatService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/ChatService.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/ChatService.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/ChatService.java	(date 1680034569000)
+@@ -0,0 +1,58 @@
++package ru.tinkoff.edu.java.scrapper.services;
++
++
++import org.springframework.stereotype.Service;
++import org.springframework.util.ConcurrentReferenceHashMap;
++import ru.tinkoff.edu.java.scrapper.Model.Link;
++import ru.tinkoff.edu.java.scrapper.exceptions.ChatExistException;
++import ru.tinkoff.edu.java.scrapper.exceptions.ChatNotFoundException;
++import ru.tinkoff.edu.java.scrapper.exceptions.LinkExistException;
++import ru.tinkoff.edu.java.scrapper.exceptions.LinkNotFoundException;
++
++import java.util.ArrayList;
++import java.util.List;
++import java.util.concurrent.ConcurrentMap;
++
++@Service
++public class ChatService {
++
++    ConcurrentMap<Long, List<Link>> chats = new ConcurrentReferenceHashMap<>();
++
++    public void addChat(Long id){
++        if(chats.containsKey(id)){
++            throw new ChatExistException("Error: chat already created");
++        }
++        chats.put(id, new ArrayList<>());
++    }
++
++    public void deleteChat(Long id){
++        if(!chats.containsKey(id)){
++            throw new ChatNotFoundException("Error: chat not found");
++        }
++        chats.remove(id);
++    }
++
++    public void addLink(Long id, Link link){
++        if(!chats.containsKey(id)) throw new ChatNotFoundException("Error: chat not found");
++        if(chats.get(id).contains(link)){
++            throw new LinkExistException("Error: link already created");
++        }
++        chats.get(id).add(link);
++    }
++
++    public List<Link> getLinks(Long id){
++        if(!chats.containsKey(id)) throw new ChatNotFoundException("Error: chat not found");
++        return chats.get(id);
++    }
++
++    public Link deleteLink(Long id, String url){
++        if(!chats.containsKey(id)) throw new ChatNotFoundException("Error: chat not found");
++        for(Link links: chats.get(id)){
++            if(links.getUrl().equals(url)){
++                chats.get(id).remove(links);
++                return links;
++            }
++        }
++        throw new LinkNotFoundException("Error: link not found");
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/LinkService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/LinkService.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/LinkService.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/services/LinkService.java	(date 1680034569000)
+@@ -0,0 +1,34 @@
++package ru.tinkoff.edu.java.scrapper.services;
++
++
++import org.springframework.stereotype.Service;
++import ru.tinkoff.edu.java.scrapper.DTO.AddLinkRequest;
++import ru.tinkoff.edu.java.scrapper.DTO.RemoveLinkRequest;
++import ru.tinkoff.edu.java.scrapper.Model.Link;
++
++import java.util.List;
++
++@Service
++public class LinkService {
++
++    long nextId = 0;
++    private final ChatService chatService;
++
++    public LinkService(ChatService chatService) {
++        this.chatService = chatService;
++    }
++
++    public Link addLink(Long chatId, AddLinkRequest request) {
++        Link link = new Link(nextId, request.url());
++        nextId++;
++        chatService.addLink(chatId, link);
++        return link;
++    }
++
++    public List<Link> getLinks(Long id) {
++        return chatService.getLinks(id);
++    }
++    public Link deleteLink(Long id, RemoveLinkRequest request) {
++        return chatService.deleteLink(id, request.link());
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/LinkController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/LinkController.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/LinkController.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/LinkController.java	(date 1680034569000)
+@@ -0,0 +1,42 @@
++package ru.tinkoff.edu.java.scrapper.controller;
++
++
++import org.springframework.web.bind.annotation.*;
++import ru.tinkoff.edu.java.scrapper.DTO.AddLinkRequest;
++import ru.tinkoff.edu.java.scrapper.DTO.LinkResponse;
++import ru.tinkoff.edu.java.scrapper.DTO.ListLinkResponse;
++import ru.tinkoff.edu.java.scrapper.DTO.RemoveLinkRequest;
++import ru.tinkoff.edu.java.scrapper.Model.Link;
++import ru.tinkoff.edu.java.scrapper.services.LinkService;
++
++import java.util.List;
++
++@RestController
++@RequestMapping("/links")
++public class LinkController {
++
++    private final LinkService linkService;
++
++    public LinkController(LinkService linkService) {
++        this.linkService = linkService;
++    }
++
++    @GetMapping
++    public ListLinkResponse getLinks(@RequestHeader("Tg-Chat-Id") Long chatId) {
++        List<Link> list = linkService.getLinks(chatId);
++        return new ListLinkResponse(list, list.size());
++    }
++
++    @PostMapping
++    public LinkResponse addLink(@RequestHeader("Tg-Chat-Id") Long chatId, @RequestBody AddLinkRequest request) {
++        Link link = linkService.addLink(chatId, request);
++        return new LinkResponse(link.getId(), link.getUrl());
++    }
++
++    @DeleteMapping
++    public LinkResponse deleteLink(@RequestHeader("Tg-Chat-Id") Long chatId, @RequestBody RemoveLinkRequest request) {
++        Link link = linkService.deleteLink(chatId, request);
++        return new LinkResponse(link.getId(), link.getUrl());
++    }
++
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/GitHubClient.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/GitHubClient.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/GitHubClient.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/GitHubClient.java	(date 1680034569000)
+@@ -0,0 +1,24 @@
++package ru.tinkoff.edu.java.scrapper.clients;
++
++import org.springframework.web.reactive.function.client.WebClient;
++import ru.tinkoff.edu.java.scrapper.DTO.GitHubResponse;
++
++public class GitHubClient {
++
++    private final WebClient webClient;
++
++    public GitHubClient(String baseUrl) {
++        this.webClient = WebClient.create(baseUrl);
++    }
++
++    public GitHubClient() {
++        this.webClient = WebClient.create("https://api.github.com");
++    }
++
++    public GitHubResponse fetchRepo(String owner, String repo) {
++        return webClient.get()
++                .uri("/repos/{owner}/{repo}", owner, repo)
++                .retrieve()
++                .bodyToMono(GitHubResponse.class).block();
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/StackOverflowClient.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/StackOverflowClient.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/StackOverflowClient.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/clients/StackOverflowClient.java	(date 1680034569000)
+@@ -0,0 +1,24 @@
++package ru.tinkoff.edu.java.scrapper.clients;
++
++import org.springframework.web.reactive.function.client.WebClient;
++import ru.tinkoff.edu.java.scrapper.DTO.StackOverflowQuestion;
++import ru.tinkoff.edu.java.scrapper.DTO.StackOverflowResponse;
++
++public class StackOverflowClient {
++    private final WebClient webClient;
++
++    public StackOverflowClient() {
++        this.webClient = WebClient.create("https://api.stackexchange.com/2.3/");
++    }
++
++    public StackOverflowClient(String baseUrl) {
++        this.webClient = WebClient.create(baseUrl);
++    }
++
++    public StackOverflowResponse fetchQuestion(long id) {
++        return webClient.get().uri("/questions/{id}?order=desc&sort=activity&site=stackoverflow", id)
++                .retrieve()
++                .bodyToMono(StackOverflowResponse.class)
++                .block();
++    }
++}
+\ No newline at end of file
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/LinkUpdateScheduler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/LinkUpdateScheduler.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/LinkUpdateScheduler.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/schedulers/LinkUpdateScheduler.java	(date 1680034569000)
+@@ -0,0 +1,15 @@
++package ru.tinkoff.edu.java.scrapper.schedulers;
++
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.scheduling.annotation.Scheduled;
++import org.springframework.stereotype.Component;
++
++@Slf4j
++@Component
++public class LinkUpdateScheduler {
++
++    @Scheduled(fixedDelayString = "#{@schedulerTimer}")
++    public void update() {
++        log.info("work");
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ChatController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ChatController.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ChatController.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ChatController.java	(date 1680034569000)
+@@ -0,0 +1,26 @@
++package ru.tinkoff.edu.java.scrapper.controller;
++
++
++import org.springframework.web.bind.annotation.*;
++import ru.tinkoff.edu.java.scrapper.services.ChatService;
++
++@RestController
++@RequestMapping("/tg-chat")
++public class ChatController {
++
++    private final ChatService chatService;
++
++    public ChatController(ChatService chatService) {
++        this.chatService = chatService;
++    }
++
++    @PostMapping(value = "{id}")
++    public void createChat(@PathVariable Long id) {
++        chatService.addChat(id);
++    }
++
++    @DeleteMapping(value = "{id}")
++    public void deleteChat(@PathVariable Long id) {
++        chatService.deleteChat(id);
++    }
++}
+Index: scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ExceptionApiHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ExceptionApiHandler.java b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ExceptionApiHandler.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controller/ExceptionApiHandler.java	(date 1680034569000)
+@@ -0,0 +1,33 @@
++package ru.tinkoff.edu.java.scrapper.controller;
++
++import org.springframework.http.ResponseEntity;
++import org.springframework.web.bind.annotation.ExceptionHandler;
++import org.springframework.web.bind.annotation.RestControllerAdvice;
++import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
++import ru.tinkoff.edu.java.scrapper.DTO.ApiErrorResponse;
++import ru.tinkoff.edu.java.scrapper.exceptions.ChatExistException;
++import ru.tinkoff.edu.java.scrapper.exceptions.ChatNotFoundException;
++import ru.tinkoff.edu.java.scrapper.exceptions.LinkExistException;
++import ru.tinkoff.edu.java.scrapper.exceptions.LinkNotFoundException;
++
++import java.util.Arrays;
++
++import static org.springframework.http.HttpStatus.BAD_REQUEST;
++
++@RestControllerAdvice
++public class ExceptionApiHandler extends ResponseEntityExceptionHandler {
++
++
++    @ExceptionHandler({ChatNotFoundException.class, LinkNotFoundException.class, ChatExistException.class, LinkExistException.class})
++    public ResponseEntity<ApiErrorResponse> chatNotFoundExceptions(RuntimeException exception) {
++        ApiErrorResponse response = createError(exception, BAD_REQUEST.getReasonPhrase(), BAD_REQUEST.toString());
++        return ResponseEntity.status(BAD_REQUEST).body(response);
++    }
++
++    private ApiErrorResponse createError(Throwable exception, String description, String code) {
++        return new ApiErrorResponse(
++                description, code, exception.getClass().getName(),
++                exception.getMessage(),
++                Arrays.stream(exception.getStackTrace()).map(StackTraceElement::toString).toArray(String[]::new));
++    }
++}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/ApiErrorResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/ApiErrorResponse.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/ApiErrorResponse.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/ApiErrorResponse.java	(date 1680034569000)
+@@ -0,0 +1,5 @@
++package ru.tinkoff.edu.java.bot.DTO;
++
++public record ApiErrorResponse(String description, String code,
++                               String exceptionName, String exceptionMessage,
++                               String[] stacktrace){}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/ChatNotFoundException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/ChatNotFoundException.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/ChatNotFoundException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/ChatNotFoundException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.bot.exceptions;
++
++public class ChatNotFoundException extends RuntimeException{
++    public ChatNotFoundException(String message) {
++        super(message);
++    }
++}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/LinkNotFoundException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/LinkNotFoundException.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/LinkNotFoundException.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/exceptions/LinkNotFoundException.java	(date 1680034569000)
+@@ -0,0 +1,7 @@
++package ru.tinkoff.edu.java.bot.exceptions;
++
++public class LinkNotFoundException extends RuntimeException{
++    public LinkNotFoundException(String message) {
++        super(message);
++    }
++}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/LinkUpdate.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/LinkUpdate.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/LinkUpdate.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/DTO/LinkUpdate.java	(date 1680034569000)
+@@ -0,0 +1,3 @@
++package ru.tinkoff.edu.java.bot.DTO;
++
++public record LinkUpdate(Long id, String url, String description, Long[] tgChatIds) {}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/ExceptionApiHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/ExceptionApiHandler.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/ExceptionApiHandler.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/ExceptionApiHandler.java	(date 1680034569000)
+@@ -0,0 +1,33 @@
++package ru.tinkoff.edu.java.bot.controllers;
++
++import org.springframework.http.HttpStatus;
++import org.springframework.http.ResponseEntity;
++import org.springframework.web.bind.annotation.ExceptionHandler;
++import org.springframework.web.bind.annotation.ResponseStatus;
++import org.springframework.web.bind.annotation.RestControllerAdvice;
++import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
++import ru.tinkoff.edu.java.bot.DTO.ApiErrorResponse;
++import ru.tinkoff.edu.java.bot.exceptions.ChatNotFoundException;
++import ru.tinkoff.edu.java.bot.exceptions.LinkNotFoundException;
++
++import java.util.Arrays;
++
++import static org.springframework.http.HttpStatus.BAD_REQUEST;
++
++@RestControllerAdvice
++public class ExceptionApiHandler extends ResponseEntityExceptionHandler {
++
++
++    @ExceptionHandler({ChatNotFoundException.class, LinkNotFoundException.class})
++    public ResponseEntity<ApiErrorResponse> chatNotFoundExceptions(RuntimeException exception) {
++        ApiErrorResponse response = createError(exception, BAD_REQUEST.getReasonPhrase(), BAD_REQUEST.toString());
++        return ResponseEntity.status(BAD_REQUEST).body(response);
++    }
++
++    private ApiErrorResponse createError(Throwable exception, String description, String code) {
++        return new ApiErrorResponse(
++                description, code, exception.getClass().getName(),
++                exception.getMessage(),
++                Arrays.stream(exception.getStackTrace()).map(StackTraceElement::toString).toArray(String[]::new));
++    }
++}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/LinkController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/LinkController.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/LinkController.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/LinkController.java	(date 1680034569000)
+@@ -0,0 +1,22 @@
++package ru.tinkoff.edu.java.bot.controllers;
++
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
++import org.springframework.web.bind.annotation.RestController;
++import ru.tinkoff.edu.java.bot.DTO.LinkUpdate;
++import ru.tinkoff.edu.java.bot.services.LinkService;
++
++@RestController
++public class LinkController {
++
++    private final LinkService linkService;
++
++    public LinkController(LinkService linksService) {
++        this.linkService = linksService;
++    }
++
++    @PostMapping(value = "updates")
++    public void sendUpdate(@RequestBody LinkUpdate request){
++        linkService.updateLink(request);
++    }
++}
+Index: bot/src/main/java/ru/tinkoff/edu/java/bot/services/LinkService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/src/main/java/ru/tinkoff/edu/java/bot/services/LinkService.java b/bot/src/main/java/ru/tinkoff/edu/java/bot/services/LinkService.java
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/java/ru/tinkoff/edu/java/bot/services/LinkService.java	(date 1680034569000)
+@@ -0,0 +1,21 @@
++package ru.tinkoff.edu.java.bot.services;
++
++
++import org.springframework.stereotype.Service;
++import ru.tinkoff.edu.java.bot.DTO.LinkUpdate;
++import ru.tinkoff.edu.java.bot.exceptions.ChatNotFoundException;
++import ru.tinkoff.edu.java.bot.exceptions.LinkNotFoundException;
++
++@Service
++public class LinkService {
++
++
++    public void updateLink(LinkUpdate linkUpdate) {
++        if(linkUpdate.id() == 1){
++            throw new ChatNotFoundException("Chat not found");
++        }
++        if(linkUpdate.id() == 2){
++            throw new LinkNotFoundException("Link not found");
++        }
++    }
++}
+Index: bot/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/bot/src/main/resources/application.properties b/bot/src/main/resources/application.properties
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/src/main/resources/application.properties	(date 1680034569000)
+@@ -0,0 +1,2 @@
++app.test=beamer-bot
++springdoc.swagger-ui.path=/swagger-ui
+\ No newline at end of file
+Index: scrapper/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/scrapper/src/main/resources/application.properties b/scrapper/src/main/resources/application.properties
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/src/main/resources/application.properties	(date 1680034569000)
+@@ -0,0 +1,3 @@
++app.test=beamer-scrapper
++springdoc.swagger-ui.path=/swagger-ui
++app.scheduler.interval=15000
+\ No newline at end of file
+Index: scrapper/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrapper/pom.xml b/scrapper/pom.xml
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/scrapper/pom.xml	(date 1680034569000)
+@@ -0,0 +1,66 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++    <parent>
++        <groupId>ru.tinkoff.edu</groupId>
++        <artifactId>tinkoff-app</artifactId>
++        <version>1.0-SNAPSHOT</version>
++    </parent>
++    <artifactId>scrapper</artifactId>
++
++    <dependencies>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-web</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-validation</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-devtools</artifactId>
++            <scope>runtime</scope>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-webflux</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-configuration-processor</artifactId>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springdoc</groupId>
++            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
++            <version>2.0.2</version>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-context-indexer</artifactId>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <optional>true</optional>
++        </dependency>
++    </dependencies>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.springframework.boot</groupId>
++                <artifactId>spring-boot-maven-plugin</artifactId>
++            </plugin>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++            </plugin>
++        </plugins>
++    </build>
++</project>
+\ No newline at end of file
+Index: link-parser/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/link-parser/pom.xml b/link-parser/pom.xml
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/link-parser/pom.xml	(date 1680034569000)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <parent>
++        <groupId>ru.tinkoff.edu</groupId>
++        <artifactId>tinkoff-app</artifactId>
++        <version>1.0-SNAPSHOT</version>
++    </parent>
++    <artifactId>link-parser</artifactId>
++
++    <properties>
++        <maven.compiler.source>17</maven.compiler.source>
++        <maven.compiler.target>17</maven.compiler.target>
++    </properties>
++
++</project>
+\ No newline at end of file
+Index: bot/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/pom.xml b/bot/pom.xml
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/bot/pom.xml	(date 1680034569000)
+@@ -0,0 +1,62 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++    <parent>
++    <groupId>ru.tinkoff.edu</groupId>
++    <artifactId>tinkoff-app</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    </parent>
++    <artifactId>bot</artifactId>
++
++    <dependencies>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-web</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-validation</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-devtools</artifactId>
++            <scope>runtime</scope>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-configuration-processor</artifactId>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-context-indexer</artifactId>
++            <optional>true</optional>
++        </dependency>
++        <dependency>
++            <groupId>org.springdoc</groupId>
++            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
++            <version>2.0.2</version>
++        </dependency>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <optional>true</optional>
++        </dependency>
++    </dependencies>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.springframework.boot</groupId>
++                <artifactId>spring-boot-maven-plugin</artifactId>
++            </plugin>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++            </plugin>
++        </plugins>
++    </build>
++</project>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(date 1680034569000)
++++ b/pom.xml	(date 1680034569000)
+@@ -0,0 +1,92 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>ru.tinkoff.edu</groupId>
++    <artifactId>tinkoff-app</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <packaging>pom</packaging>
++    <properties>
++        <spring-boot.version>3.0.1</spring-boot.version>
++        <spring-cloud.version>2022.0.0</spring-cloud.version>
++        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
++        <annotations.version>23.1.0</annotations.version>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    </properties>
++    <modules>
++        <module>bot</module>
++        <module>link-parser</module>
++        <module>scrapper</module>
++    </modules>
++    <dependencyManagement>
++        <dependencies>
++            <dependency>
++                <groupId>org.springframework.cloud</groupId>
++                <artifactId>spring-cloud-dependencies</artifactId>
++                <version>${spring-cloud.version}</version>
++                <type>pom</type>
++                <scope>import</scope>
++            </dependency>
++
++            <dependency>
++                <groupId>org.springframework.boot</groupId>
++                <artifactId>spring-boot-dependencies</artifactId>
++                <version>${spring-boot.version}</version>
++                <type>pom</type>
++                <scope>import</scope>
++            </dependency>
++        </dependencies>
++    </dependencyManagement>
++
++
++    <dependencies>
++        <dependency>
++            <groupId>org.jetbrains</groupId>
++            <artifactId>annotations</artifactId>
++            <version>${annotations.version}</version>
++            <scope>provided</scope>
++        </dependency>
++    </dependencies>
++
++    <build>
++        <pluginManagement>
++            <plugins>
++                <plugin>
++                    <groupId>org.springframework.boot</groupId>
++                    <artifactId>spring-boot-maven-plugin</artifactId>
++                    <version>${spring-boot.version}</version>
++                    <configuration>
++                        <layers>
++                            <enabled>true</enabled>
++                        </layers>
++                        <excludes>
++                            <exclude>
++                                <groupId>org.project-lombok</groupId>
++                                <artifactId>lombok</artifactId>
++                            </exclude>
++                        </excludes>
++                    </configuration>
++                    <executions>
++                        <execution>
++                            <goals>
++                                <goal>repackage</goal>
++                                <goal>build-info</goal>
++                            </goals>
++                        </execution>
++                    </executions>
++                </plugin>
++                <plugin>
++                    <groupId>org.apache.maven.plugins</groupId>
++                    <artifactId>maven-compiler-plugin</artifactId>
++                    <version>${maven-compiler-plugin.version}</version>
++                    <configuration>
++                        <release>17</release>
++                        <parameters>true</parameters>
++                    </configuration>
++                </plugin>
++            </plugins>
++        </pluginManagement>
++    </build>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1684093932931)
++++ b/.idea/compiler.xml	(date 1684093932931)
+@@ -0,0 +1,27 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="bot" target="17" />
++      <module name="link-parser" target="17" />
++      <module name="Project" target="1.5" />
++      <module name="scrapper" target="17" />
++      <module name="tinkoff-app" target="1.5" />
++    </bytecodeTargetLevel>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="bot" options="-parameters" />
++      <module name="link-parser" options="-parameters" />
++      <module name="scrapper" options="-parameters" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml b/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1684093655779)
++++ b/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml	(date 1684093655779)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.reactivestreams:reactive-streams:1.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml b/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml
+new file mode 100644
+--- /dev/null	(date 1684093655742)
++++ b/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml	(date 1684093655742)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.projectlombok:lombok:1.18.24">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml b/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml
+new file mode 100644
+--- /dev/null	(date 1684093655849)
++++ b/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml	(date 1684093655849)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.slf4j:slf4j-api:2.0.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml b/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml
+new file mode 100644
+--- /dev/null	(date 1684093655814)
++++ b/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml	(date 1684093655814)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.slf4j:jul-to-slf4j:2.0.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/2.0.6/jul-to-slf4j-2.0.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/2.0.6/jul-to-slf4j-2.0.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/2.0.6/jul-to-slf4j-2.0.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_0_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_0_2.xml b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_0_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093656098)
++++ b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_0_2.xml	(date 1684093656098)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.0.2/springdoc-openapi-starter-webmvc-ui-2.0.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.0.2/springdoc-openapi-starter-webmvc-ui-2.0.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.0.2/springdoc-openapi-starter-webmvc-ui-2.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_0_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_0_2.xml b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_0_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093656043)
++++ b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_0_2.xml	(date 1684093656043)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springdoc:springdoc-openapi-starter-webmvc-api:2.0.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-api/2.0.2/springdoc-openapi-starter-webmvc-api-2.0.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-api/2.0.2/springdoc-openapi-starter-webmvc-api-2.0.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-webmvc-api/2.0.2/springdoc-openapi-starter-webmvc-api-2.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_0_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_0_2.xml b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_0_2.xml
+new file mode 100644
+--- /dev/null	(date 1684093655996)
++++ b/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_0_2.xml	(date 1684093655996)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springdoc:springdoc-openapi-starter-common:2.0.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-common/2.0.2/springdoc-openapi-starter-common-2.0.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-common/2.0.2/springdoc-openapi-starter-common-2.0.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springdoc/springdoc-openapi-starter-common/2.0.2/springdoc-openapi-starter-common-2.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656240)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_1.xml	(date 1684093656240)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-devtools:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/3.0.1/spring-boot-devtools-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/3.0.1/spring-boot-devtools-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/3.0.1/spring-boot-devtools-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656204)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_3_0_1.xml	(date 1684093656204)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-configuration-processor:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656168)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_1.xml	(date 1684093656168)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.1/spring-boot-autoconfigure-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.1/spring-boot-autoconfigure-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.1/spring-boot-autoconfigure-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656134)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_1.xml	(date 1684093656134)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/3.0.1/spring-boot-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/3.0.1/spring-boot-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/3.0.1/spring-boot-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656387)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_0_1.xml	(date 1684093656387)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.1/spring-boot-starter-reactor-netty-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.1/spring-boot-starter-reactor-netty-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.1/spring-boot-starter-reactor-netty-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656348)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_1.xml	(date 1684093656348)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-logging:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/3.0.1/spring-boot-starter-logging-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/3.0.1/spring-boot-starter-logging-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/3.0.1/spring-boot-starter-logging-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656311)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_1.xml	(date 1684093656311)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-json:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/3.0.1/spring-boot-starter-json-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/3.0.1/spring-boot-starter-json-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/3.0.1/spring-boot-starter-json-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_1.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1684093656276)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_1.xml	(date 1684093656276)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/3.0.1/spring-boot-starter-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/3.0.1/spring-boot-starter-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/3.0.1/spring-boot-starter-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

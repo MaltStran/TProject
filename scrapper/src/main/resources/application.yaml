@@ -1,0 +1,11 @@
+app:
+  test: hello-scrapper
+server:
+  port: 8080
+springdoc:
+  swagger-ui:
+    path: /openapi/v2/swagger-ui.html
+  api-docs:
+    path: /openapi/api-docs
+  packages-to-scan: app
+  paths-to-match: /**

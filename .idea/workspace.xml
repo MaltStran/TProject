@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="feffcc57-a09d-4316-9f4d-3cc79438d92b" name="Changes" comment="Task Solved">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PnGaBpeFJ1tiFZpdXEiI0rrVkN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Solved">
+      <created>1684084388976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684084388976</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solved">
+      <created>1684084450173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684084450173</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Solved">
+      <created>1684085258173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085258173</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feffcc57-a09d-4316-9f4d-3cc79438d92b" name="Changes" comment="" />
+      <created>1684085492930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684085492930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solved">
+      <created>1684085587117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085587117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Solved">
+      <created>1684085610985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085610985</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solved">
+      <created>1684086299986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684086299986</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw8">
+      <created>1684086374602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684086374602</updated>
+    </task>
+    <task id="LOCAL-00008" summary="/|\">
+      <created>1684091587563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684091587563</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task Solved">
+      <created>1684091714313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684091714313</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task Solved">
+      <created>1684091867325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684091867325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task Solved">
+      <created>1684093805196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684093805196</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task Solved">
+      <created>1684093935159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684093935159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Практика тинькофф №9">
+      <created>1684266295857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684266295857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved" />
+    <MESSAGE value="hw8" />
+    <MESSAGE value="/|\" />
+    <MESSAGE value="Task Solved" />
+    <MESSAGE value="Практика тинькофф №9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практика тинькофф №9" />
+  </component>
+</project>
