@@ -1,6 +1,5 @@
 package ru.tinkoff.edu.java.scrapper.services.jdbc;
 
-import org.springframework.stereotype.Service;
 import ru.tinkoff.edu.java.linkParser.ParserURL;
 import ru.tinkoff.edu.java.linkParser.records.GitHubRecord;
 import ru.tinkoff.edu.java.linkParser.records.Result;
@@ -8,15 +7,14 @@ import ru.tinkoff.edu.java.linkParser.records.StackOverFlowRecord;
 import ru.tinkoff.edu.java.scrapper.DTO.GitHubResponse;
 import ru.tinkoff.edu.java.scrapper.DTO.LinkUpdate;
 import ru.tinkoff.edu.java.scrapper.DTO.StackOverflowQuestion;
-import ru.tinkoff.edu.java.scrapper.DTO.StackOverflowResponse;
 import ru.tinkoff.edu.java.scrapper.Model.Chat;
 import ru.tinkoff.edu.java.scrapper.Model.Link;
-import ru.tinkoff.edu.java.scrapper.clients.BotClient;
 import ru.tinkoff.edu.java.scrapper.clients.GitHubClient;
 import ru.tinkoff.edu.java.scrapper.clients.StackOverflowClient;
 import ru.tinkoff.edu.java.scrapper.repository.ChatLinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.repository.LinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.services.LinkUpdater;
+import ru.tinkoff.edu.java.scrapper.services.UpdateService;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -31,17 +29,17 @@ public class JdbcLinkUpdaterService implements LinkUpdater {
     private final ChatLinkJdbcRepository chatLinkJdbcRepository;
     private final GitHubClient gitHubClient;
     private final StackOverflowClient stackOverflowClient;
-    private final BotClient botClient;
+    private final UpdateService updateService;
     private final ParserURL parserURL;
 
     public JdbcLinkUpdaterService(LinkJdbcRepository linkJdbcRepository, ChatLinkJdbcRepository chatLinkJdbcRepository,
                                   GitHubClient gitHubClient, StackOverflowClient stackOverflowClient,
-                                  BotClient botClient, ParserURL parserURL) {
+                                  UpdateService updateService, ParserURL parserURL) {
         this.linkJdbcRepository = linkJdbcRepository;
         this.chatLinkJdbcRepository = chatLinkJdbcRepository;
         this.gitHubClient = gitHubClient;
         this.stackOverflowClient = stackOverflowClient;
-        this.botClient = botClient;
+        this.updateService = updateService;
         this.parserURL = parserURL;
     }
 
@@ -59,7 +57,7 @@ public class JdbcLinkUpdaterService implements LinkUpdater {
                     List<Chat> chats = chatLinkJdbcRepository.findAllChatByLinkId(link.getId());
                     Long[] chatsId = chats.stream().map(Chat::getChat_id).toArray(Long[]::new);
                     try {
-                        botClient.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
+                        updateService.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
                     }
                     catch (URISyntaxException e) {
                         e.printStackTrace();
@@ -74,7 +72,7 @@ public class JdbcLinkUpdaterService implements LinkUpdater {
                     List<Chat> chats = chatLinkJdbcRepository.findAllChatByLinkId(link.getId());
                     Long[] chatsId = chats.stream().map(Chat::getChat_id).toArray(Long[]::new);
                     try {
-                        botClient.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
+                        updateService.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
                     }
                     catch (URISyntaxException e) {
                         e.printStackTrace();

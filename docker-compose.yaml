@@ -28,6 +28,18 @@ services:
       - ./migrations:/liquibase/changelog
     networks:
       - backend
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    restart: always
+    environment:
+      - RABBITMQ_DEFAULT_USER=1234
+      - RABBITMQ_DEFAULT_PASS=1234
+    volumes:
+      - ./rabbitmq:/var/lib/rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
 
 networks:
   backend:

@@ -18,9 +18,4 @@ public class ClientConfiguration {
     public StackOverflowClient stackOverflowClientService() {
         return new StackOverflowClient();
     }
-
-    @Bean
-    public BotClient botClientService() {
-        return new BotClient();
-    }
 }

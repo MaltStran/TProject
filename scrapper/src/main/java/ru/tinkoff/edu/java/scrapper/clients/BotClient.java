@@ -4,8 +4,9 @@ import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 import ru.tinkoff.edu.java.scrapper.DTO.LinkUpdate;
+import ru.tinkoff.edu.java.scrapper.services.UpdateService;
 
-public class BotClient {
+public class BotClient implements UpdateService {
     private final WebClient webClient;
 
     public BotClient(String baseUrl) {
