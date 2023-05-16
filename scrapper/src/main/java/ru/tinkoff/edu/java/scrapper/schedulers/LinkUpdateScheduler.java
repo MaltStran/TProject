@@ -18,7 +18,6 @@ public class LinkUpdateScheduler {
 
     @Scheduled(fixedDelayString = "#{@schedulerTimer}")
     public void update(){
-        log.info("work");
         linkUpdater.update();
     }
 }

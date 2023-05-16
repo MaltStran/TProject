@@ -13,6 +13,7 @@ import ru.tinkoff.edu.java.scrapper.repository.Jpa.LinkJpaRepository;
 import ru.tinkoff.edu.java.scrapper.services.Jpa.JpaChatService;
 import ru.tinkoff.edu.java.scrapper.services.Jpa.JpaLinkService;
 import ru.tinkoff.edu.java.scrapper.services.Jpa.JpaLinkUpdateService;
+import ru.tinkoff.edu.java.scrapper.services.UpdateService;
 
 @Configuration
 @ConditionalOnProperty(prefix = "app", name = "database-access-type", havingValue = "jpa")
@@ -31,8 +32,8 @@ public class JpaConfig {
     @Bean
     public JpaLinkUpdateService jpaLinkUpdateService(LinkJpaRepository linkJpaRepository, ChatLinkRepositoryJpa chatLinkRepositoryJpa,
                                                      GitHubClient gitHubClient, StackOverflowClient stackOverflowClient,
-                                                     ParserURL parserURL, BotClient botClient){
+                                                     ParserURL parserURL, UpdateService updateService){
         return  new JpaLinkUpdateService(linkJpaRepository, chatLinkRepositoryJpa, gitHubClient,
-                stackOverflowClient, botClient, parserURL);
+                stackOverflowClient, updateService, parserURL);
     }
 }

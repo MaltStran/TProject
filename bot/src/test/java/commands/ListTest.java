@@ -10,6 +10,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import ru.tinkoff.edu.java.bot.DTO.LinkResponse;
 import ru.tinkoff.edu.java.bot.DTO.ListLinkResponse;
 import ru.tinkoff.edu.java.bot.Model.Link;
 import ru.tinkoff.edu.java.bot.clients.LinkClient;
@@ -57,8 +58,8 @@ public class ListTest {
         when(mockMessage.chat()).thenReturn(mockChat);
         when(mockMessage.chat().id()).thenReturn(id);
         when(client.getAllLinks(id)).thenReturn(new ListLinkResponse(List.of(
-                new Link(id, URI.create("https://github.com/sanyarnd/tinkoff-java-course-2022/")),
-                new Link(id, URI.create("https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c"))), 2));
+                new LinkResponse(id, URI.create("https://github.com/sanyarnd/tinkoff-java-course-2022/")),
+                new LinkResponse(id, URI.create("https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c"))), 2));
         ListCommand listCommand = new ListCommand(client);
         SendMessage result = listCommand.handle(mockUpdate);
         String res = """

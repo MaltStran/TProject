@@ -2,6 +2,7 @@ package ru.tinkoff.edu.java.bot.Model;
 
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.net.URI;
@@ -16,4 +17,6 @@ public class Link {
         this.id = id;
         this.url = url;
     }
+
+    
 }

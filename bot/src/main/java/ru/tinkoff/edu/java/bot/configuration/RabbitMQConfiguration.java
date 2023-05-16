@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.tinkoff.edu.java.bot.DTO.LinkUpdate;
-import ru.tinkoff.edu.java.bot.services.RabbitListener;
+import ru.tinkoff.edu.java.bot.services.ListenerRabbit;
 import ru.tinkoff.edu.java.bot.services.UpdateService;
 
 import java.util.HashMap;
@@ -77,7 +77,7 @@ public class RabbitMQConfiguration {
     }
 
     @Bean
-    public RabbitListener rabbitListener(UpdateService updateService){
-        return new RabbitListener(updateService);
+    public ListenerRabbit rabbitListener(UpdateService updateService){
+        return new ListenerRabbit(updateService);
     }
 }

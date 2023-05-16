@@ -1,6 +1,7 @@
 package ru.tinkoff.edu.java.scrapper.services.Jpa;
 
 import ru.tinkoff.edu.java.scrapper.Model.ChatLink;
+import ru.tinkoff.edu.java.scrapper.Model.Jpa.ChatLinkJpa;
 import ru.tinkoff.edu.java.scrapper.Model.Jpa.LinkJpa;
 import ru.tinkoff.edu.java.scrapper.Model.Link;
 import ru.tinkoff.edu.java.scrapper.repository.Jpa.ChatLinkRepositoryJpa;
@@ -22,16 +23,16 @@ public class JpaLinkService implements LinkService {
 
     @Override
     public Link add(Long tgChatId, String url) {
-        linkJpaRepository.add(new Link(url, new Timestamp(System.currentTimeMillis())));
+        linkJpaRepository.save(new LinkJpa(url, new Timestamp(System.currentTimeMillis())));
         LinkJpa link = linkJpaRepository.findByUrl(url);
-        chatLinkRepository.add(new ChatLink(tgChatId, link.getId()));
+        chatLinkRepository.add(tgChatId, link.getId());
         return new Link(link);
     }
 
     @Override
     public Link remove(Long tgChatId, String url) {
         LinkJpa link = linkJpaRepository.findByUrl(url);
-        chatLinkRepository.remove(new ChatLink(tgChatId, link.getId()));
+        chatLinkRepository.delete(tgChatId);
         return new Link(link);
     }
 
