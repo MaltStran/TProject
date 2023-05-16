@@ -7,18 +7,14 @@ import ru.tinkoff.edu.java.linkParser.records.StackOverFlowRecord;
 import ru.tinkoff.edu.java.scrapper.DTO.GitHubResponse;
 import ru.tinkoff.edu.java.scrapper.DTO.LinkUpdate;
 import ru.tinkoff.edu.java.scrapper.DTO.StackOverflowQuestion;
-import ru.tinkoff.edu.java.scrapper.Model.Chat;
 import ru.tinkoff.edu.java.scrapper.Model.Jpa.ChatJpa;
 import ru.tinkoff.edu.java.scrapper.Model.Jpa.LinkJpa;
-import ru.tinkoff.edu.java.scrapper.Model.Link;
-import ru.tinkoff.edu.java.scrapper.clients.BotClient;
 import ru.tinkoff.edu.java.scrapper.clients.GitHubClient;
 import ru.tinkoff.edu.java.scrapper.clients.StackOverflowClient;
-import ru.tinkoff.edu.java.scrapper.repository.ChatLinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.repository.Jpa.ChatLinkRepositoryJpa;
 import ru.tinkoff.edu.java.scrapper.repository.Jpa.LinkJpaRepository;
-import ru.tinkoff.edu.java.scrapper.repository.LinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.services.LinkUpdater;
+import ru.tinkoff.edu.java.scrapper.services.UpdateService;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -31,17 +27,17 @@ public class JpaLinkUpdateService implements LinkUpdater {
     private final ChatLinkRepositoryJpa chatLinkJpaRepository;
     private final GitHubClient gitHubClient;
     private final StackOverflowClient stackOverflowClient;
-    private final BotClient botClient;
+    private final UpdateService updateService;
     private final ParserURL parserURL;
 
     public JpaLinkUpdateService(LinkJpaRepository linkJpaRepository, ChatLinkRepositoryJpa chatLinkJpaRepository,
                                 GitHubClient gitHubClient, StackOverflowClient stackOverflowClient,
-                                BotClient botClient, ParserURL parserURL) {
+                                UpdateService updateService, ParserURL parserURL) {
         this.linkJpaRepository = linkJpaRepository;
         this.chatLinkJpaRepository = chatLinkJpaRepository;
         this.gitHubClient = gitHubClient;
         this.stackOverflowClient = stackOverflowClient;
-        this.botClient = botClient;
+        this.updateService = updateService;
         this.parserURL = parserURL;
     }
 
@@ -58,7 +54,7 @@ public class JpaLinkUpdateService implements LinkUpdater {
                     linkJpaRepository.update(link);
                     Long[] chatsId = chatLinkJpaRepository.findAllChatByLinkId(link.getId()).stream().map(ChatJpa::getChat_id).toArray(Long[]::new);
                     try {
-                        botClient.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
+                        updateService.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
                     }
                     catch (URISyntaxException e) {
                         e.printStackTrace();
@@ -72,7 +68,7 @@ public class JpaLinkUpdateService implements LinkUpdater {
                     linkJpaRepository.update(link);
                     Long[] chatsId = chatLinkJpaRepository.findAllChatByLinkId(link.getId()).stream().map(ChatJpa::getChat_id).toArray(Long[]::new);
                     try {
-                        botClient.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
+                        updateService.updateLink(new LinkUpdate(link.getId(), new URI(link.getUrl()), "pushed", chatsId));
                     }
                     catch (URISyntaxException e) {
                         e.printStackTrace();

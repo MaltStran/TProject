@@ -1,13 +1,11 @@
 package ru.tinkoff.edu.java.scrapper.services.jdbc;
 
-import org.springframework.stereotype.Service;
 import ru.tinkoff.edu.java.scrapper.Model.ChatLink;
 import ru.tinkoff.edu.java.scrapper.Model.Link;
 import ru.tinkoff.edu.java.scrapper.repository.ChatLinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.repository.LinkJdbcRepository;
 import ru.tinkoff.edu.java.scrapper.services.LinkService;
 
-import java.net.URI;
 import java.sql.Timestamp;
 import java.util.List;
 

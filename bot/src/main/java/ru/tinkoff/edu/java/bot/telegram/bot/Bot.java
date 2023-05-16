@@ -16,4 +16,6 @@ public interface Bot extends AutoCloseable, UpdatesListener {
 
     @Override
     void close();
+
+    void send(Long id, String message);
 }
