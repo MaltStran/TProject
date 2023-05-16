@@ -44,7 +44,7 @@ class ChainLinkHandlerTest {
 
     private Stream<Arguments> getParametersCorrect() {
         return Stream.of(
-                Arguments.of("https://github.com/MaltStran/Project", true),
+                Arguments.of("https://github.com/purplebape/project", true),
                 Arguments.of("https://stackoverflow.com/questions/75932005/postman-http-post-json-body-and-file-upload", true),
                 Arguments.of("https://stackoverflow.com/questions/75929687/html-elements-by-yandex-qa-tools-with-spring-framework", true)
         );
@@ -56,7 +56,7 @@ class ChainLinkHandlerTest {
                 Arguments.of("1", false),
                 Arguments.of("github.com/", false),
                 Arguments.of("https://github.com/", false),
-                Arguments.of("https://github.com/MaltStran", false),
+                Arguments.of("https://github.com/purplebape", false),
                 Arguments.of("https://stackoverflow.com/123123/123123", false)
         );
     }

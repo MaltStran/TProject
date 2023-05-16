@@ -31,7 +31,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void subscribe__linkExists_createsSubscription() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
         helper.addLink(linkId, url);
 
@@ -45,7 +45,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     @Rollback
     void subscribe__linkDoesNotExist_createsLinkAndSubscription() {
         Long chatId = 5L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
 
         Link link = subscriptionService.subscribe(chatId, URI.create(url));
@@ -61,7 +61,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void subscribe__chatDoesNotExist_throwsException() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         assertNull(helper.getLinkById(linkId));
         assertNull(helper.getChatById(chatId));
 
@@ -75,7 +75,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void subscribe__alreadySubscribed_throwsException() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addLink(linkId, url);
         helper.addChat(chatId);
         helper.addSubscription(chatId, linkId);
@@ -90,7 +90,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void unsubscribe__chatDoesNotExist_throwsException() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         assertNull(helper.getChatById(chatId));
         helper.addLink(linkId, url);
 
@@ -105,7 +105,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
         // given
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
         assertNull(helper.getLinkById(linkId));
 
@@ -119,7 +119,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void unsubscribe__linkHasOnlySubscriber_removesLinkAndSubscription() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
         helper.addLink(linkId, url);
         helper.addSubscription(chatId, linkId);
@@ -139,7 +139,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
         Long chatId1 = 1L;
         Long chatId2 = 2L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId1);
         helper.addChat(chatId2);
         helper.addLink(linkId, url);
@@ -172,8 +172,8 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
         Long chatId = 1L;
         Long linkId1 = 1L;
         Long linkId2 = 2L;
-        String url1 = "https://github.com/MaltStran/Project-1/";
-        String url2 = "https://github.com/MaltStran/Project-2/";
+        String url1 = "https://github.com/purplebape/project-1/";
+        String url2 = "https://github.com/purplebape/project-2/";
         helper.addChat(chatId);
         helper.addLink(linkId1, url1);
         helper.addLink(linkId2, url2);
@@ -193,7 +193,7 @@ class JpaSubscriptionServiceTest extends IntegrationEnvironment {
     void getLinkSubscribers__hasOneSubscriber_oneCorrectItem() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
         helper.addLink(linkId, url);
         helper.addSubscription(chatId, linkId);

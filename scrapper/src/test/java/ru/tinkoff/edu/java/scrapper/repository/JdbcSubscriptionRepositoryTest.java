@@ -31,7 +31,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void add__addOne_oneAdded() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);
@@ -50,7 +50,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void add__alreadyExist_throwsException() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);
@@ -82,7 +82,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void findAll__oneExists_oneReturned() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);
@@ -102,7 +102,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void remove__oneExists_oneRemoved() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);
@@ -141,7 +141,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void countSubscriptions__oneSubscriber_oneCounted() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);
@@ -159,7 +159,7 @@ class JdbcSubscriptionRepositoryTest extends IntegrationEnvironment {
     @Rollback
     void countSubscriptions__zeroSubscribers_zeroCounted() {
         // given
-        String url = "https://github.com/MaltStran/Project";
+        String url = "https://github.com/purplebape/project";
         Long chatId = 1L;
         Long linkId = createLink(url);
         createChat(chatId);

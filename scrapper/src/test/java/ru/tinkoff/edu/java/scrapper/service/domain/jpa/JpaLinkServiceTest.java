@@ -32,17 +32,17 @@ class JpaLinkServiceTest extends IntegrationEnvironment {
         OffsetDateTime lastUpdateTime = OffsetDateTime.now();
 
         Long id1 = 1L;
-        String url1 = "https://github.com/MaltStran/Project-1/";
+        String url1 = "https://github.com/purplebape/project-1/";
         OffsetDateTime lastCheckTime1 = OffsetDateTime.now().minusMinutes(5);
         helper.addLink(id1, url1, lastCheckTime1, lastUpdateTime);
 
         Long id2 = 2L;
-        String url2 = "https://github.com/MaltStran/Project-2/";
+        String url2 = "https://github.com/purplebape/project-2/";
         OffsetDateTime lastCheckTime2 = OffsetDateTime.now().minusMinutes(5);
         helper.addLink(id2, url2, lastCheckTime2, lastUpdateTime);
 
         Long id3 = 3L;
-        String url3 = "https://github.com/MaltStran/Project-3/";
+        String url3 = "https://github.com/purplebape/project-3/";
         OffsetDateTime lastCheckTime3 = OffsetDateTime.now();
         helper.addLink(id3, url3, lastCheckTime3, lastUpdateTime);
 
@@ -61,7 +61,7 @@ class JpaLinkServiceTest extends IntegrationEnvironment {
     @Rollback
     void updateLink__linkExists_updatesLink() {
         Long id = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addLink(id, url);
         OffsetDateTime newUpdateTime = OffsetDateTime.now().plusHours(5);
 

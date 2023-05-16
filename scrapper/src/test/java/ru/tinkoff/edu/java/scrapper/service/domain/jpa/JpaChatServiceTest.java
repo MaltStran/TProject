@@ -69,7 +69,7 @@ class JpaChatServiceTest extends IntegrationEnvironment {
     void unregister__linkHasOnlySubscriber_deletesLink() {
         Long chatId = 1L;
         Long linkId = 1L;
-        String url = "https://github.com/MaltStran/Project/";
+        String url = "https://github.com/purplebape/project/";
         helper.addChat(chatId);
         helper.addLink(linkId, url);
         helper.addSubscription(chatId, linkId);
