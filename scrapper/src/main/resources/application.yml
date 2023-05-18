@@ -1,0 +1,35 @@
+app:
+  scheduler:
+    interval: 10000
+    link-to-be-checked-interval: 600000
+  github:
+    url: "https://api.github.com"
+  stackoverflow:
+    url: "https://api.stackexchange.com/2.3"
+  bot:
+    url: "http://localhost:8083"
+  databaseAccessType: jpa
+  use-queue: true
+  rabbit-queue:
+    exchange-name: updates
+    queue-name: updates.queue
+    routing-key: upd
+
+springdoc:
+  swagger-ui:
+    path: "swagger-ui"
+
+management:
+  server:
+    port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/scrapper
+    username: postgres
+    password: password
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: pass
