@@ -16,6 +16,7 @@ ij_java_packages_to_use_import_on_demand = ""
 ij_java_class_count_to_use_import_on_demand = 999
 ij_java_names_count_to_use_import_on_demand = 999
 
+
 ij_java_array_initializer_wrap = normal
 ij_java_assert_statement_wrap = normal
 ij_java_assignment_wrap = normal
