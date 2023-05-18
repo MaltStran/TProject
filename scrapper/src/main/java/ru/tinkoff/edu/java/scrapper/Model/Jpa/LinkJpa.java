@@ -24,4 +24,8 @@ public class LinkJpa {
     @Column(name = "update", nullable = false)
     private Timestamp update;
 
+    public LinkJpa(String url, Timestamp timestamp) {
+        this.url = url;
+        this.update = timestamp;
+    }
 }

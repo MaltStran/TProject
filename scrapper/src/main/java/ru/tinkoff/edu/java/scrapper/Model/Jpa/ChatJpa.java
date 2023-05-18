@@ -22,4 +22,8 @@ public class ChatJpa {
         this.chat_id = id;
         this.name = name;
     }
+
+    public ChatJpa(Long tgChatId) {
+        this.chat_id = id;
+    }
 }

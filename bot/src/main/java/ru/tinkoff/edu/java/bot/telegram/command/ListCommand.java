@@ -35,7 +35,7 @@ public class ListCommand implements Command{
         var answer = new StringBuilder();
         answer.append("Список отслеживаемых ссылок:\n");
         for (int i = 0; i < listLinkResponse.size(); i++) {
-            answer.append(listLinkResponse.links().get(i).getUrl()).append("\n");
+            answer.append(listLinkResponse.links().get(i).url().toString()).append("\n");
         }
         return new SendMessage(update.message().chat().id(), answer.toString());
     }
