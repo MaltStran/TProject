@@ -17,14 +17,17 @@ class MessageHandlerTest {
 
 
 
+
+
+    @Autowired
+    private MessageHandler messageHandler;
+
     @MockBean
     private ScrapperWebService service;
 
 
 
 
-    @Autowired
-    private MessageHandler messageHandler;
 
 
 

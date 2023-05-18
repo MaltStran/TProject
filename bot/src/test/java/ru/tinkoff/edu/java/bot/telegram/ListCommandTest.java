@@ -24,7 +24,8 @@ import ru.tinkoff.edu.java.bot.webService.ScrapperWebService;
 @ExtendWith(MockitoExtension.class)
 class ListCommandTest {
 
-
+    @InjectMocks
+    private ListCommand listCommand;
 
     @Mock
     private ScrapperWebService service;
@@ -33,8 +34,7 @@ class ListCommandTest {
 
 
 
-    @InjectMocks
-    private ListCommand listCommand;
+
 
 
 
@@ -51,6 +51,22 @@ class ListCommandTest {
 
 
 
+    private Message createListMessage() {
+        Message message = new Message();
+        message.setChat(new Chat(1L, "private"));
+        message.setText("/list");
+        return message;
+    }
+
+
+    private ListLinksResponse createListLinksResponse(int size) {
+        List<LinkResponse> list = Stream.iterate(0L, i -> i + 1)
+            .map(id -> new LinkResponse(id, URI.create("https://some.mock.link/")))
+            .limit(size)
+            .collect(Collectors.toList());
+        return new ListLinksResponse(list, size);
+    }
+
 
     @Test
     void handle__linksListNotEmpty_returnExpectedFormat() {
@@ -65,20 +81,19 @@ class ListCommandTest {
 
 
 
-    private ListLinksResponse createListLinksResponse(int size) {
-        List<LinkResponse> list = Stream.iterate(0L, i -> i + 1)
-                .map(id -> new LinkResponse(id, URI.create("https://some.mock.link/")))
-                .limit(size)
-                .collect(Collectors.toList());
-        return new ListLinksResponse(list, size);
-    }
 
 
 
-    private Message createListMessage() {
-        Message message = new Message();
-        message.setChat(new Chat(1L, "private"));
-        message.setText("/list");
-        return message;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
