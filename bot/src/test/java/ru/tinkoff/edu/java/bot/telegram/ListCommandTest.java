@@ -36,9 +36,6 @@ class ListCommandTest {
 
 
 
-
-
-
     @Test
     void handle__linksListEmpty_returnSpecialMessage() {
         when(service.getAllLinks(anyLong())).thenReturn(createListLinksResponse(0));

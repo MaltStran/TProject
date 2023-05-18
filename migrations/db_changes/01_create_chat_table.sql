@@ -1,4 +1,6 @@
 CREATE TABLE IF NOT EXISTS chat
 (
+
     id BIGINT PRIMARY KEY
+
 );

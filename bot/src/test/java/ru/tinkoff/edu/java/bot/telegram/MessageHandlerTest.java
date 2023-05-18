@@ -18,15 +18,11 @@ class MessageHandlerTest {
 
 
 
-
     @Autowired
     private MessageHandler msgHand;
 
     @MockBean
     private ScrapperWebService service;
-
-
-
 
 
 

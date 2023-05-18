@@ -1,4 +1,6 @@
 app:
+
+
   bot:
     name: "tinkoff-bot"
     token:
@@ -9,16 +11,27 @@ app:
     queue-name: updates.queue
     routing-key: upd
 
+
+
+
 springdoc:
   swagger-ui:
     path: "swagger-ui"
+
+
 
 management:
   server:
     port: 8080
 
+
+
+
 server:
   port: 8083
+
+
+
 
 spring:
   rabbitmq:
