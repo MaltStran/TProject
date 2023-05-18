@@ -28,15 +28,13 @@ public class RabbitMQConfig {
         this.routingKey = conf.getRabbitQueue().getRoutingKey();
     }
 
-    @Bean
-    public MessageConverter jsonMessageConverter() {
-        return new Jackson2JsonMessageConverter();
-    }
+    // Happy Wolf //
 
     @Bean
     public DirectExchange exchange() {
         return new DirectExchange(exchangeName, true, false);
     }
+
 
     @Bean
     public Queue queue() {
@@ -59,4 +57,11 @@ public class RabbitMQConfig {
     public ScrapperQueueProducer scrapperQueueProducer(RabbitTemplate rabbitTemplate, ApplicationConfig conf) {
         return new ScrapperQueueProducer(rabbitTemplate, conf);
     }
+
+
+    @Bean
+    public MessageConverter jsonMessageConverter() {
+        return new Jackson2JsonMessageConverter();
+    }
+
 }

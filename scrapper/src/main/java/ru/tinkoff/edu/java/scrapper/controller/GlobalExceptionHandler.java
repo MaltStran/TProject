@@ -13,11 +13,36 @@ import ru.tinkoff.edu.java.scrapper.model.controller.ApiErrorResponse;
         basePackages = "ru.tinkoff.edu.java.scrapper.controller"
 )
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
+
     private static final String CLIENT_ERROR_CODE = "client";
+
     private static final String SERVER_ERROR_CODE = "server";
 
     private static final String CLIENT_ERROR_DESCRIPTION = "Wrong client action";
+
     private static final String SERVER_ERROR_DESCRIPTION = "Internal error";
+
+
+
+    private ResponseEntity<ApiErrorResponse> buildError(
+        Exception exception,
+        HttpStatus httpStatus,
+        String code,
+        String description
+    ) {
+        return new ResponseEntity<>(
+            new ApiErrorResponse(
+                description,
+                code,
+                exception.toString(),
+                exception.getMessage(),
+                Arrays.stream(exception.getStackTrace())
+                    .map(Objects::toString)
+                    .toList()
+            ),
+            httpStatus
+        );
+    }
 
     @ExceptionHandler(IllegalArgumentException.class)
     protected ResponseEntity<ApiErrorResponse> handleIllegalArgumentException(IllegalArgumentException ex) {
@@ -39,23 +64,5 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         );
     }
 
-    private ResponseEntity<ApiErrorResponse> buildError(
-            Exception exception,
-            HttpStatus httpStatus,
-            String code,
-            String description
-    ) {
-        return new ResponseEntity<>(
-                new ApiErrorResponse(
-                        description,
-                        code,
-                        exception.toString(),
-                        exception.getMessage(),
-                        Arrays.stream(exception.getStackTrace())
-                                .map(Objects::toString)
-                                .toList()
-                ),
-                httpStatus
-        );
-    }
+
 }

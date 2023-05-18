@@ -18,20 +18,42 @@ import ru.tinkoff.edu.java.parser.ParserConfig;
 @Configuration
 @Import(value = {ParserConfig.class})
 public class ApplicationConfig {
+
     @NotNull
     private Scheduler scheduler;
+
     @NotNull
     private GitHub gitHub;
+
     @NotNull
     private StackOverflow stackOverflow;
+
     @NotNull
     private Bot bot;
+
     @NotNull
     private AccessType databaseAccessType;
+
     @NotNull
     private RabbitQueue rabbitQueue;
 
     private Boolean useQueue = false;
+
+
+    public enum AccessType {
+        JDBC,
+        JPA,
+        JOOQ
+    }
+
+
+    @Validated
+    @Data
+    public static class GitHub {
+        @NotBlank
+        private String url = "https://api.github.com";
+    }
+
 
     @Validated
     @Data
@@ -42,25 +64,12 @@ public class ApplicationConfig {
         private Duration linkToBeCheckedInterval;
     }
 
-    @Validated
-    @Data
-    public static class GitHub {
-        @NotBlank
-        private String url = "https://api.github.com";
-    }
 
     @Validated
     @Data
     public static class StackOverflow {
         @NotBlank
         private String url = "https://stackoverflow.com/2.3";
-    }
-
-    @Validated
-    @Data
-    public static class Bot {
-        @NotBlank
-        private String url;
     }
 
     @Validated
@@ -74,9 +83,14 @@ public class ApplicationConfig {
         private String routingKey;
     }
 
-    public enum AccessType {
-        JDBC,
-        JPA,
-        JOOQ
+    @Validated
+    @Data
+    public static class Bot {
+        @NotBlank
+        private String url;
     }
+
+
+
+
 }

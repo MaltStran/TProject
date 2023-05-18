@@ -12,10 +12,14 @@ import ru.tinkoff.edu.java.scrapper.model.client.GitHubEventResponse;
         accept = MediaType.APPLICATION_JSON_VALUE,
         contentType = MediaType.APPLICATION_JSON_VALUE
 )
+
+
 public interface GitHubWebClient {
+
     @GetExchange("/repos/{owner}/{repo}/events")
     Mono<List<GitHubEventResponse>> fetchEvents(
             @PathVariable("owner") String owner,
             @PathVariable("repo") String repo
     );
+
 }

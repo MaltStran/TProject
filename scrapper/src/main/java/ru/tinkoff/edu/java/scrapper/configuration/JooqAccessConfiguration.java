@@ -16,34 +16,46 @@ import ru.tinkoff.edu.java.scrapper.service.domain.jooq.JooqSubscriptionService;
 
 @Configuration
 @ConditionalOnProperty(prefix = "app", name = "database-access-type", havingValue = "jooq")
+
+//------- Jooq reealizacia nakonecto razobralsya -------//
+
 public class JooqAccessConfiguration {
-    @Bean
-    public JooqChatRepository chatRepository(DSLContext context) {
-        return new JooqChatRepository(context);
-    }
 
     @Bean
     public JooqLinkRepository linkRepository(DSLContext context) {
         return new JooqLinkRepository(context);
     }
 
+
+    @Bean
+    public JooqChatRepository chatRepository(DSLContext context) {
+        return new JooqChatRepository(context);
+    }
+
+
+    @Bean
+    public LinkService linkService(
+        JooqLinkRepository linkRepository
+    ) {
+        return new JooqLinkService(linkRepository);
+    }
+
+
     @Bean
     public JooqSubscriptionRepository subscriptionRepository(DSLContext context) {
         return new JooqSubscriptionRepository(context);
     }
 
-    @Bean
-    public LinkService linkService(
-            JooqLinkRepository linkRepository
-    ) {
-        return new JooqLinkService(linkRepository);
-    }
+
+
 
     @Bean
     public ChatService chatService(
             JooqLinkRepository linkRepository,
             JooqChatRepository chatRepository
-    ) {
+    )
+
+    {
         return new JooqChatService(linkRepository, chatRepository);
     }
 
@@ -52,7 +64,9 @@ public class JooqAccessConfiguration {
             JooqLinkRepository linkRepository,
             JooqChatRepository chatRepository,
             JooqSubscriptionRepository subscriptionRepository
-    ) {
+    )
+
+    {
         return new JooqSubscriptionService(
                 linkRepository,
                 chatRepository,

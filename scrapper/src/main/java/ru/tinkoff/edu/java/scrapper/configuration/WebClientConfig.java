@@ -19,6 +19,12 @@ public class WebClientConfig {
     private final ExchangeStrategies exchangeStrategies;
     private static final Integer MAX_BUFF_SIZE = 1024 * 1024 * 10;
 
+
+    @Bean
+    public GitHubWebClient gitHubWebClient(ApplicationConfig conf) {
+        return buildWebClient(conf.getGitHub().getUrl(), GitHubWebClient.class);
+    }
+
     public WebClientConfig(ObjectMapper objectMapper) {
         exchangeStrategies = ExchangeStrategies
                 .builder()
@@ -33,9 +39,15 @@ public class WebClientConfig {
                 }).build();
     }
 
-    @Bean
-    public GitHubWebClient gitHubWebClient(ApplicationConfig conf) {
-        return buildWebClient(conf.getGitHub().getUrl(), GitHubWebClient.class);
+    private <T> T buildWebClient(String baseUrl, Class<T> client) {
+        WebClient webClient = WebClient.builder()
+            .exchangeStrategies(exchangeStrategies)
+            .baseUrl(baseUrl)
+            .build();
+        HttpServiceProxyFactory httpServiceProxyFactory = HttpServiceProxyFactory
+            .builder(WebClientAdapter.forClient(webClient))
+            .build();
+        return httpServiceProxyFactory.createClient(client);
     }
 
     @Bean
@@ -48,14 +60,5 @@ public class WebClientConfig {
         return buildWebClient(conf.getBot().getUrl(), BotWebClient.class);
     }
 
-    private <T> T buildWebClient(String baseUrl, Class<T> client) {
-        WebClient webClient = WebClient.builder()
-                .exchangeStrategies(exchangeStrategies)
-                .baseUrl(baseUrl)
-                .build();
-        HttpServiceProxyFactory httpServiceProxyFactory = HttpServiceProxyFactory
-                .builder(WebClientAdapter.forClient(webClient))
-                .build();
-        return httpServiceProxyFactory.createClient(client);
-    }
+
 }

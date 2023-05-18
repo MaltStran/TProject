@@ -21,6 +21,8 @@ public class JpaAccessConfiguration {
         return new JpaLinkService(linkRepository);
     }
 
+
+
     @Bean
     public ChatService chatService(
             JpaLinkRepository linkRepository,
@@ -29,12 +31,16 @@ public class JpaAccessConfiguration {
         return new JpaChatService(chatRepository, linkRepository);
     }
 
+
+
+
     @Bean
     public SubscriptionService subscriptionService(
             JpaLinkRepository linkRepository,
             JpaChatRepository chatRepository,
             JpaSubscriptionRepository subscriptionRepository
-    ) {
+    )
+    {
         return new JpaSubscriptionService(
                 subscriptionRepository,
                 linkRepository,
