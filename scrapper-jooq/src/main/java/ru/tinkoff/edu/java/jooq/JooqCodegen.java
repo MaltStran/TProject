@@ -22,9 +22,49 @@ import org.jooq.meta.jaxb.Target;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.testcontainers.containers.PostgreSQLContainer;
 
+
+// Nenaviju JOOQ'ov //
+
 public class JooqCodegen {
+
     private static final PostgreSQLContainer<?> DB_CONTAINER;
+
     private static final String MASTER_PATH = "migrations/master.xml";
+
+    public static void main(String[] args) throws Exception {
+        Configuration configuration = new Configuration()
+            .withJdbc(new Jdbc()
+                .withDriver(DB_CONTAINER.getDriverClassName())
+                .withUrl(DB_CONTAINER.getJdbcUrl())
+                .withUser(DB_CONTAINER.getUsername())
+                .withPassword(DB_CONTAINER.getPassword()))
+            .withGenerator(new Generator()
+                .withGenerate(new Generate()
+                    .withGeneratedAnnotation(true)
+                    .withGeneratedAnnotationDate(false)
+                    .withNullableAnnotation(true)
+                    .withNullableAnnotationType("org.jetbrains.annotations.Nullable")
+                    .withNonnullAnnotation(true)
+                    .withNonnullAnnotationType("org.jetbrains.annotations.NotNull")
+                    .withJpaAnnotations(false)
+                    .withValidationAnnotations(true)
+                    .withSpringAnnotations(true)
+                    .withConstructorPropertiesAnnotation(true)
+                    .withConstructorPropertiesAnnotationOnPojos(true)
+                    .withConstructorPropertiesAnnotationOnRecords(true)
+                    .withFluentSetters(false)
+                    .withDaos(false)
+                    .withPojos(true))
+                .withDatabase(new Database()
+                    .withName("org.jooq.meta.postgres.PostgresDatabase")
+                    .withInputSchema("public"))
+                .withTarget(new Target()
+                    .withPackageName("ru.tinkoff.edu.java.scrapper.domain.jooq")
+                    .withDirectory("scrapper/src/main/java")));
+
+        GenerationTool.generate(configuration);
+    }
+
 
     static {
         DB_CONTAINER = new PostgreSQLContainer<>("postgres:15");
@@ -47,37 +87,5 @@ public class JooqCodegen {
         }
     }
 
-    public static void main(String[] args) throws Exception {
-        Configuration configuration = new Configuration()
-                .withJdbc(new Jdbc()
-                        .withDriver(DB_CONTAINER.getDriverClassName())
-                        .withUrl(DB_CONTAINER.getJdbcUrl())
-                        .withUser(DB_CONTAINER.getUsername())
-                        .withPassword(DB_CONTAINER.getPassword()))
-                .withGenerator(new Generator()
-                        .withGenerate(new Generate()
-                                .withGeneratedAnnotation(true)
-                                .withGeneratedAnnotationDate(false)
-                                .withNullableAnnotation(true)
-                                .withNullableAnnotationType("org.jetbrains.annotations.Nullable")
-                                .withNonnullAnnotation(true)
-                                .withNonnullAnnotationType("org.jetbrains.annotations.NotNull")
-                                .withJpaAnnotations(false)
-                                .withValidationAnnotations(true)
-                                .withSpringAnnotations(true)
-                                .withConstructorPropertiesAnnotation(true)
-                                .withConstructorPropertiesAnnotationOnPojos(true)
-                                .withConstructorPropertiesAnnotationOnRecords(true)
-                                .withFluentSetters(false)
-                                .withDaos(false)
-                                .withPojos(true))
-                        .withDatabase(new Database()
-                                .withName("org.jooq.meta.postgres.PostgresDatabase")
-                                .withInputSchema("public"))
-                        .withTarget(new Target()
-                                .withPackageName("ru.tinkoff.edu.java.scrapper.domain.jooq")
-                                .withDirectory("scrapper/src/main/java")));
 
-        GenerationTool.generate(configuration);
-    }
 }

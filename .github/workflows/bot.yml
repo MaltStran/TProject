@@ -6,9 +6,11 @@ on:
       - 'pom.xml'
       - '.github/workflows/bot.yml'
 
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: bot-app:latest
+
 
 jobs:
   build:
@@ -33,6 +35,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push Docker image
         run: docker push ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}
+
 
   checkstyle:
     runs-on: ubuntu-latest

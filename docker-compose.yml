@@ -1,5 +1,7 @@
 version: '3.9'
 services:
+
+
   postgresql:
     image: postgres:15
     container_name: scrapper-postgres
@@ -13,6 +15,9 @@ services:
       - backend
     volumes:
       - scrapper-postgres:/var/lib/postgesql/data
+
+
+
 
   liquibase-migrations:
     image: liquibase/liquibase:4.18
@@ -31,6 +36,9 @@ services:
       - ./migrations:/liquibase/changelog
     networks:
       - backend
+
+
+
 
   rabbitmq:
     image: rabbitmq:3-management
