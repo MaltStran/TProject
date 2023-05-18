@@ -12,10 +12,10 @@ public class ScrapperQueueProducer implements UpdatesSender {
     private final String exchangeName;
     private final String routingKey;
 
-    public ScrapperQueueProducer(RabbitTemplate rabbitTemplate, ApplicationConfig config) {
+    public ScrapperQueueProducer(RabbitTemplate rabbitTemplate, ApplicationConfig conf) {
         this.rabbitTemplate = rabbitTemplate;
-        this.exchangeName = config.getRabbitQueue().getExchangeName();
-        this.routingKey = config.getRabbitQueue().getRoutingKey();
+        this.exchangeName = conf.getRabbitQueue().getExchangeName();
+        this.routingKey = conf.getRabbitQueue().getRoutingKey();
     }
 
     public void sendUpdate(LinkUpdateRequest update) {

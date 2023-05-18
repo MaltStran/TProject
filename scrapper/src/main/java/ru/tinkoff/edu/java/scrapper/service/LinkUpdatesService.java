@@ -24,7 +24,7 @@ import ru.tinkoff.edu.java.scrapper.service.stackoverflow.StackOverflowWebServic
 @Service
 @RequiredArgsConstructor
 public class LinkUpdatesService {
-    private final ApplicationConfig config;
+    private final ApplicationConfig conf;
     private final LinkHandlerChain handlerChain;
     private final LinkService linkService;
     private final SubscriptionService subscriptionService;
@@ -48,7 +48,7 @@ public class LinkUpdatesService {
 
     private List<Link> getUncheckedLinks() {
         return linkService.updateLastCheckedTimeAndGet(
-                config.getScheduler().getLinkToBeCheckedInterval()
+                conf.getScheduler().getLinkToBeCheckedInterval()
         );
     }
 

@@ -19,16 +19,38 @@ import ru.tinkoff.edu.java.bot.telegram.commands.AbstractPublicCommand;
 @Slf4j
 @Component
 public class TrackerBot extends TelegramLongPollingBot {
-    private final ApplicationConfig config;
-    private final MessageHandler messageHandler;
+    private final ApplicationConfig conf;
+    private final MessageHandler msgHand;
     private final List<AbstractPublicCommand> commands;
 
-    public TrackerBot(ApplicationConfig config, MessageHandler messageHandler, List<AbstractPublicCommand> commands) {
-        super(config.getBot().getToken());
-        this.messageHandler = messageHandler;
-        this.config = config;
-        this.commands = commands;
+
+
+
+    @Override
+    public void onUpdateReceived(Update update) {
+        if (update.hasMessage()) {
+            Message message = update.getMessage();
+            SendMessage sendMessage;
+            try {
+                sendMessage = msgHand.handle(message);
+            } catch (RuntimeException ex) {
+                log.error(ex.toString());
+                sendMessage = new SendMessage(
+                    message.getChatId().toString(),
+                    "Sorry, internal error happened"
+                );
+            }
+            try {
+                execute(sendMessage);
+            } catch (TelegramApiException e) {
+                log.error("Failed to send message due to error: {}", e.getMessage());
+            }
+        }
     }
+
+
+
+
 
     @PostConstruct
     private void init() {
@@ -45,31 +67,22 @@ public class TrackerBot extends TelegramLongPollingBot {
         }
     }
 
-    @Override
-    public void onUpdateReceived(Update update) {
-        if (update.hasMessage()) {
-            Message message = update.getMessage();
-            SendMessage sendMessage;
-            try {
-                sendMessage = messageHandler.handle(message);
-            } catch (RuntimeException ex) {
-                log.error(ex.toString());
-                sendMessage = new SendMessage(
-                        message.getChatId().toString(),
-                        "Sorry, internal error happened"
-                );
-            }
-            try {
-                execute(sendMessage);
-            } catch (TelegramApiException e) {
-                log.error("Failed to send message due to error: {}", e.getMessage());
-            }
-        }
+
+    public TrackerBot(ApplicationConfig conf, MessageHandler msgHand, List<AbstractPublicCommand> commands) {
+        super(conf.getBot().getToken());
+        this.msgHand = msgHand;
+        this.conf = conf;
+        this.commands = commands;
     }
+
+
+
+
+
 
     @Override
     public String getBotUsername() {
-        return config.getBot().getName();
+        return conf.getBot().getName();
     }
 
     public void sendUpdates(LinkUpdateRequest updates) {

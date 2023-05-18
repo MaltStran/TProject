@@ -10,12 +10,18 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.tinkoff.edu.java.bot.model.controller.LinkUpdateRequest;
 import ru.tinkoff.edu.java.bot.telegram.TrackerBot;
 
+
+
 @Slf4j
 @Validated
 @RestController
 @RequiredArgsConstructor
 public class UpdatesController {
+
+
     private final TrackerBot bot;
+
+
 
     @PostMapping(
             path = "/updates",

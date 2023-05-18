@@ -20,7 +20,7 @@ class MessageHandlerTest {
 
 
     @Autowired
-    private MessageHandler messageHandler;
+    private MessageHandler msgHand;
 
     @MockBean
     private ScrapperWebService service;
@@ -34,7 +34,7 @@ class MessageHandlerTest {
 
     @Test
     void handle__unknownCommand_returnSpecialMessage() {
-        SendMessage response = messageHandler.handle(createMessage("SomeCommandThadDoesNotExist"));
+        SendMessage response = msgHand.handle(createMessage("SomeCommandThadDoesNotExist"));
 
         assertEquals(response.getText(), "Команда неизвестна. Нажмите /help, чтобы посмотреть список команд.");
     }

@@ -21,8 +21,6 @@ public class WebClientConfig {
 
 
 
-
-
     private final ExchangeStrategies exchangeStrategies;
 
     public WebClientConfig(ObjectMapper objectMapper) {
@@ -44,12 +42,9 @@ public class WebClientConfig {
 
 
 
-
-
-
     @Bean
-    public ScrapperWebClient gitHubWebClient(ApplicationConfig config) {
-        return buildWebClient(config.getScrapper().getUrl(), ScrapperWebClient.class);
+    public ScrapperWebClient gitHubWebClient(ApplicationConfig conf) {
+        return buildWebClient(conf.getScrapper().getUrl(), ScrapperWebClient.class);
     }
 
     private <T> T buildWebClient(String baseUrl, Class<T> client) {
