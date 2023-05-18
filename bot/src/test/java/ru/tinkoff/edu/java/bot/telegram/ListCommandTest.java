@@ -23,11 +23,21 @@ import ru.tinkoff.edu.java.bot.webService.ScrapperWebService;
 
 @ExtendWith(MockitoExtension.class)
 class ListCommandTest {
+
+
+
     @Mock
     private ScrapperWebService service;
 
+
+
+
+
     @InjectMocks
     private ListCommand listCommand;
+
+
+
 
     @Test
     void handle__linksListEmpty_returnSpecialMessage() {
@@ -35,8 +45,12 @@ class ListCommandTest {
 
         SendMessage response = listCommand.handle(createListMessage());
 
-        assertEquals(response.getText(), "Отслеживаемых ссылок ещё нет. Введите /track <ссылка> для добавления.");
+        assertEquals(response.getText(), "Отслеживаемых ссылок не найдено. Введите /track <ссылка> для добавления.");
     }
+
+
+
+
 
     @Test
     void handle__linksListNotEmpty_returnExpectedFormat() {
@@ -45,9 +59,11 @@ class ListCommandTest {
 
         SendMessage response = listCommand.handle(createListMessage());
 
-        assertTrue(response.getText().startsWith("Список текущих отслеживаемых ссылок:"));
+        assertTrue(response.getText().startsWith("Список отслеживаемых ссылок:"));
         assertEquals(response.getText().split("\r\n|\r|\n").length, size + 1);
     }
+
+
 
     private ListLinksResponse createListLinksResponse(int size) {
         List<LinkResponse> list = Stream.iterate(0L, i -> i + 1)
@@ -56,6 +72,8 @@ class ListCommandTest {
                 .collect(Collectors.toList());
         return new ListLinksResponse(list, size);
     }
+
+
 
     private Message createListMessage() {
         Message message = new Message();

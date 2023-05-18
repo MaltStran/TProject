@@ -19,11 +19,17 @@ import ru.tinkoff.edu.java.parser.ParserConfig;
         ParserConfig.class
 })
 public class ApplicationConfig {
+
+
+
     @NotNull
     private Bot bot;
     @NotNull
     private Scrapper scrapper;
     private RabbitQueue rabbitQueue;
+
+
+
 
     @Validated
     @Data
@@ -34,12 +40,20 @@ public class ApplicationConfig {
         private String name;
     }
 
+
+
+
     @Validated
     @Data
     public static class Scrapper {
         @NotBlank
         private String url;
     }
+
+
+
+
+
 
     @Validated
     @Data

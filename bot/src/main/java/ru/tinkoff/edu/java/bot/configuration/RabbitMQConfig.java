@@ -33,12 +33,23 @@ public class RabbitMQConfig {
         this.routingKey = config.getRabbitQueue().getRoutingKey();
     }
 
+
+
+
+
+
     @Bean
     public MessageConverter jsonMessageConverter(ClassMapper classMapper) {
         Jackson2JsonMessageConverter jsonConverter = new Jackson2JsonMessageConverter();
         jsonConverter.setClassMapper(classMapper);
         return jsonConverter;
     }
+
+
+
+
+
+
 
     @Bean
     public ClassMapper classMapper() {
@@ -49,6 +60,11 @@ public class RabbitMQConfig {
         classMapper.setIdClassMapping(mappings);
         return classMapper;
     }
+
+
+
+
+
 
     @Bean
     public DirectExchange deadLetterExchange() {
@@ -62,6 +78,11 @@ public class RabbitMQConfig {
             .build();
     }
 
+
+
+
+
+
     @Bean
     public Binding deadLetterbinding(Queue deadLetterQueue, DirectExchange deadLetterExchange) {
         return BindingBuilder
@@ -69,6 +90,12 @@ public class RabbitMQConfig {
             .to(deadLetterExchange)
             .with(routingKey + DLQ_SUFFIX);
     }
+
+
+
+
+
+
 
     @Bean
     public ScrapperQueueListener scrapperQueueListener(TrackerBot bot) {

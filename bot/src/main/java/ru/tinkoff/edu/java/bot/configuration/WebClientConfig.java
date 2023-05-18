@@ -14,6 +14,15 @@ import ru.tinkoff.edu.java.bot.webClient.ScrapperWebClient;
 
 @Configuration
 public class WebClientConfig {
+
+
+
+
+
+
+
+
+
     private final ExchangeStrategies exchangeStrategies;
 
     public WebClientConfig(ObjectMapper objectMapper) {
@@ -28,6 +37,15 @@ public class WebClientConfig {
                             .jackson2JsonDecoder(new Jackson2JsonDecoder(objectMapper, MediaType.APPLICATION_JSON));
                 }).build();
     }
+
+
+
+
+
+
+
+
+
 
     @Bean
     public ScrapperWebClient gitHubWebClient(ApplicationConfig config) {

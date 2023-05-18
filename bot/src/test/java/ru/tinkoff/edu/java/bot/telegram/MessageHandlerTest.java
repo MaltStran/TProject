@@ -14,11 +14,20 @@ import ru.tinkoff.edu.java.bot.webService.ScrapperWebService;
 @SpringBootTest(properties = "spring.main.lazy-initialization=true")
 @TestPropertySource(locations = "classpath:application.yml")
 class MessageHandlerTest {
+
+
+
     @MockBean
     private ScrapperWebService service;
 
+
+
+
     @Autowired
     private MessageHandler messageHandler;
+
+
+
 
     @Test
     void handle__unknownCommand_returnSpecialMessage() {
@@ -26,6 +35,9 @@ class MessageHandlerTest {
 
         assertEquals(response.getText(), "Команда неизвестна. Нажмите /help, чтобы посмотреть список команд.");
     }
+
+
+
 
     private Message createMessage(String text) {
         Message message = new Message();
