@@ -7,18 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="scrapper" />
-        <module name="scrapper-jooq" />
         <module name="link-parser" />
         <module name="bot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scrapper-jooq" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bot" options="-parameters" />
       <module name="link-parser" options="-parameters" />
       <module name="scrapper" options="-parameters" />
-      <module name="scrapper-jooq" options="-parameters" />
+      <module name="scrapper-jooq" options="" />
     </option>
   </component>
 </project>
