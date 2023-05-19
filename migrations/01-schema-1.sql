@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset MaltStrann:table-link
+--changeset MaltStran:table-link
 
 create table link(
     id bigserial primary key,

@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset MaltStrann:table-chat_link
+--changeset MaltStran:table-chat_link
 
 create table chat_link(
     chat_id bigint not null references "chat" (id),

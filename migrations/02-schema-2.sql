@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset MaltStrann:table-chat
+--changeset MaltStran:table-chat
 
 create table chat(
     id bigserial primary key,
