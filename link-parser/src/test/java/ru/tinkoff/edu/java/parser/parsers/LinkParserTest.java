@@ -4,10 +4,16 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.tinkoff.edu.java.parser.records.StackOverflowRecord;
 
+
+
+/*Test for link-parser */
+
+
+
 public class LinkParserTest {
     private final StackOverflowLinkParser stackOverflowLinkParser = new StackOverflowLinkParser(null);
     private final GitHubLinkParser gitHubLinkParser = new GitHubLinkParser(null);
-    private final String username = "Manylovvv/";
+    private final String username = "MaltStran/";
     private final String repo = "TestRep";
 
 

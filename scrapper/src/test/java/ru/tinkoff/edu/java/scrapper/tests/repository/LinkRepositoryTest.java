@@ -20,14 +20,23 @@ import java.util.List;
 
 @SpringBootTest
 public class LinkRepositoryTest extends IntegrationEnvironment {
+
+
     @Autowired
     private LinkRepository linkRepository;
+
+
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+
     @Autowired
     private Mapper mapper;
-    private final List<String> urls = List.of("https://github.com/Manylovvv/TinkoffEdu/",
-            "https://github.com/Manylovvv/TestRep/");
+
+
+
+    private final List<String> urls = List.of("https://github.com/MaltStran/TProject/",
+            "https://github.com/MaltStran/Project/");
 
     @BeforeEach
     public void setup() {
@@ -63,7 +72,7 @@ public class LinkRepositoryTest extends IntegrationEnvironment {
     @Transactional
     @Rollback
     void addTest() throws URISyntaxException {
-        String newUrl = "https://github.com/Manylovvv/tinkoff/";
+        String newUrl = "https://github.com/MaltStran/tinkoff/";
         Link link = new Link();
         link.setLink(new URI(newUrl));
         link.setLastUpdate(OffsetDateTime.now());

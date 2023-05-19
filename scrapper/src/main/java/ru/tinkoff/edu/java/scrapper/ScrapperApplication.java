@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig;
 
+/*Realization for scrapper (scrapperMain)*/
+
 @SpringBootApplication
 @EnableScheduling
 public class ScrapperApplication {

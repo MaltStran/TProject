@@ -8,6 +8,8 @@ import org.jooq.meta.jaxb.Generator;
 import org.jooq.meta.jaxb.Property;
 import org.jooq.meta.jaxb.Target;
 
+/*Main Jooq-codegena*/
+
 public class JooqCodegen {
     public static void main(String[] args) throws Exception {
         Database database = new Database()
@@ -16,7 +18,6 @@ public class JooqCodegen {
                         new Property().withKey("rootPath").withValue("migrations"),
                         new Property().withKey("scripts").withValue("master.xml")
                 );
-
         Generate options = new Generate()
                 .withGeneratedAnnotation(true)
                 .withGeneratedAnnotationDate(false)
@@ -33,11 +34,9 @@ public class JooqCodegen {
                 .withFluentSetters(false)
                 .withDaos(false)
                 .withPojos(true);
-
         Target target = new Target()
                 .withPackageName("ru.tinkoff.edu.java.scrapper.domain.jooq")
                 .withDirectory("scrapper/src/main/java");
-
         Configuration configuration = new Configuration()
                 .withGenerator(
                         new Generator()
@@ -45,7 +44,6 @@ public class JooqCodegen {
                                 .withGenerate(options)
                                 .withTarget(target)
                 );
-
         GenerationTool.generate(configuration);
     }
 }

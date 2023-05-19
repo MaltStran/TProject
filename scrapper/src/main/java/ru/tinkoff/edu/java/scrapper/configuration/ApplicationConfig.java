@@ -8,6 +8,8 @@ import org.springframework.validation.annotation.Validated;
 import ru.tinkoff.edu.java.scrapper.configuration.access.enums.AccessType;
 import ru.tinkoff.edu.java.scrapper.configuration.sheduler.Scheduler;
 
+
+//Vvedenie getterov i setterov//
 @Getter
 @Setter
 @ToString

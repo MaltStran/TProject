@@ -37,6 +37,12 @@ public class CoreUpdaterTest {
         messageProcessor = new CoreUpdater(new ListCommand(client));
     }
 
+
+
+    /*Realization test updater for bot*/
+
+
+
     @Test
     public void processListCommand_emptyList() {
         Long chatId = 43215784L;
