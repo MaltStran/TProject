@@ -89,8 +89,9 @@
             <groupId>ru.tinkoff.edu</groupId>
             <artifactId>link-parser</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-            <!--<systemPath>${basedir}/lib/link-parser-1.0-SNAPSHOT.jar</systemPath>-->
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/link-parser-1.0-SNAPSHOT.jar</systemPath>
+
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
