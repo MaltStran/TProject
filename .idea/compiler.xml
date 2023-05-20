@@ -2,27 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="scrapper-jooq" />
         <module name="scrapper" />
         <module name="link-parser" />
         <module name="bot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bot" target="17" />
-      <module name="link-parser" target="17" />
-      <module name="scrapper" target="17" />
-      <module name="TProject" target="1.5" />
+      <module name="tinkoff-app" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bot" options="-parameters" />
-      <module name="link-parser" options="-parameters" />
-      <module name="scrapper" options="-parameters" />
+      <module name="bot" options="" />
+      <module name="link-parser" options="" />
+      <module name="scrapper" options="" />
+      <module name="scrapper-jooq" options="" />
     </option>
   </component>
 </project>
